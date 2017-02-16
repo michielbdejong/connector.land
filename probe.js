@@ -4,7 +4,7 @@ var https = require('https');
 
 const DATA_FILE = './data.json';
 
-function checkUrl(i, path, field) {
+function checkUrl(i, path) {
   return new Promise((resolve) => {
     var request = https.request({
       hostname: hosts[i].hostname,
@@ -18,35 +18,47 @@ function checkUrl(i, path, field) {
       });
   
       response.on('end', function () {
-        if (response.statusCode === 200) {
-          hosts[i][field] = str;
-        } else {
-          hosts[i][field] = `http ${response.statusCode} response`;
-        }
-        resolve();
+        resolve({ status: response.statusCode, body: str });
       });
     });
     request.setTimeout(5000, function(err) {
-      hosts[i][field] = 'Timed out';
-      resolve();
+      resolve({ error: 'Timed out' });
     });
     request.on('error', function(err) {
-      hosts[i][field] = 'Connection error';
-      resolve();
+      resolve({ error: 'Connection error' });
     });
     request.end();
   });
 }
 
 function checkSettlements(i) {
-  return checkUrl(i, '/api/settlement_methods', 'settlements');
+  return checkUrl(i, '/api/settlement_methods').then((result) => {
+    if (result.error) {
+        return `<span style="color:red">${result.error}</span>`;
+    } else if (result.status === 200) {
+      var methods
+      try {
+        methods = JSON.parse(result.body);
+        if (methods.length === 0) {
+          return 'None';
+        }
+        return '<span style="color:green">' +
+          methods.map(obj => obj.name).join(', ') +
+          '</span>';
+      } catch(e) {
+        return '<span style="color:red">Unparseable JSON</span>';
+      }
+    } else {
+      return `HTTP <span style="color:red">${result.status}</span> response`;
+    }
+  }).then(text => {
+    hosts[i].settlements = text;
+  });
 }
 
 function pingHost(i) {
   return new Promise((resolve) => {
-    console.log('pinging', hosts[i].hostname);
     ping.sys.probe(hosts[i].hostname, function(isAlive){
-      console.log(hosts[i].hostname, isAlive);
       hosts[i].ping = isAlive;
       resolve();
     });
@@ -66,7 +78,7 @@ try {
 }
 var promises = [];
 for (var i=0; i<hosts.length; i++) {
-//for (var i=0; i<3; i++) {
+  console.log('checking', hosts[i].hostname);
   promises.push(pingHost(i));
   promises.push(checkSettlements(i));
 }
