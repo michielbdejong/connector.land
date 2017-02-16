@@ -17,5 +17,8 @@
   {"hostname":"payment.am","prefix":"am.amd.payment.","owner":"mesrop","ping":true,"settlements":"HTTP <span style=\"color:red\">404</span> response","health":"OK"},
   {"hostname":"ilp-kit.michielbdejong.com","prefix":"lu.eur.michiel.","owner":"michiel","ping":true,"settlements":"<span style=\"color:green\">Cash</span>","health":"OK"},
   {"hostname":"john.jpvbs.com","prefix":"","owner":"","ping":true,"settlements":"None","health":"OK"},
+  {"hostname":"best-ilp.herokuapp.com","prefix":"","owner":"","ping":false,"settlements":"None","health":"OK"},
+  {"hostname":"someledger.herokuapp.com","prefix":"","owner":"","ping":false,"settlements":"None","health":"OK"},
+  {"hostname":"michiel-is-not-available.herokuapp.com","prefix":"","owner":"","ping":false,"settlements":"None","health":"OK"},
   {"hostname":"royalcrypto.com","prefix":"ca.usd.royalcrypto.","owner":"twarden","ping":true,"settlements":"None","health":"OK"}
 ]
