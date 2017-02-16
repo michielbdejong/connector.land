@@ -19,6 +19,6 @@
   {"hostname":"john.jpvbs.com","prefix":"","owner":"","ping":true,"settlements":"None","health":"OK"},
   {"hostname":"best-ilp.herokuapp.com","prefix":"","owner":"","ping":false,"settlements":"None","health":"OK"},
   {"hostname":"someledger.herokuapp.com","prefix":"","owner":"","ping":false,"settlements":"None","health":"OK"},
-  {"hostname":"michiel-is-not-available.herokuapp.com","prefix":"","owner":"","ping":false,"settlements":"None","health":"OK"},
+  {"hostname":"michiel-is-not-available.herokuapp.com","prefix":"","owner":"","ping":false,"settlements":"<span style=\"color:green\">Cash</span>","health":"OK"},
   {"hostname":"royalcrypto.com","prefix":"ca.usd.royalcrypto.","owner":"twarden","ping":true,"settlements":"None","health":"OK"}
 ]
