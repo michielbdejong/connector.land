@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/michielbdejong/connector.land#readme",
   "dependencies": {
-    "ping": "^0.2.1"
+    "ping": "^0.2.1",
+    "webfinger.js": "^2.6.2"
   }
 }
