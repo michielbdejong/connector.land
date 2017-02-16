@@ -31,28 +31,42 @@ function checkUrl(i, path) {
   });
 }
 
-function checkSettlements(i) {
-  return checkUrl(i, '/api/settlement_methods').then((result) => {
+function checkApiCall(i, field, path, print) {
+  return checkUrl(i, path).then((result) => {
     if (result.error) {
         return `<span style="color:red">${result.error}</span>`;
     } else if (result.status === 200) {
-      var methods
-      try {
-        methods = JSON.parse(result.body);
-        if (methods.length === 0) {
-          return 'None';
-        }
-        return '<span style="color:green">' +
-          methods.map(obj => obj.name).join(', ') +
-          '</span>';
-      } catch(e) {
-        return '<span style="color:red">Unparseable JSON</span>';
-      }
+      return print(result.body);
     } else {
       return `HTTP <span style="color:red">${result.status}</span> response`;
     }
   }).then(text => {
-    hosts[i].settlements = text;
+    hosts[i][field] = text;
+  });
+}
+
+function checkHealth(i) {
+  return checkApiCall(i, 'health', '/api/health', function(body) {
+    return body;
+  });
+}
+
+function checkSettlements(i) {
+  return checkApiCall(i, 'settlements', '/api/settlement_methods', function(body) {
+    var methods
+    console.log('parsing', hosts[i].hostname, body);
+    try {
+      methods = JSON.parse(body);
+      if (methods.length === 0) {
+        return 'None';
+      }
+      return '<span style="color:green">' +
+        methods.map(obj => obj.name).join(', ') +
+        '</span>';
+    } catch(e) {
+      console.log(body, e);
+      return '<span style="color:red">Unparseable JSON</span>';
+    }
   });
 }
 
@@ -77,9 +91,11 @@ try {
   process.exit(1);
 }
 var promises = [];
+//for (var i=6; i<9; i++) {
 for (var i=0; i<hosts.length; i++) {
   console.log('checking', hosts[i].hostname);
   promises.push(pingHost(i));
+  promises.push(checkHealth(i));
   promises.push(checkSettlements(i));
 }
 Promise.all(promises).then(() => {

@@ -7,6 +7,7 @@ xhr.onload = function() {
         `<td>${line.prefix}</td>` +
         `<td>${line.owner}</td>` +
         (line.ping?`<td style="color:green">&#x2713;</td>` : `<td style="color:red">&#x2716;</td>`) +
+        `<td>${line.health.slice(0, 50)}</td>` +
         `<td>${line.settlements.slice(0, 50)}</td>` +
         `</tr>`
   ).join('\n');
@@ -16,6 +17,7 @@ xhr.onload = function() {
     '<th>Ledger Prefix</th>',
     '<th>Owner\'s Connector Account</th>',
     '<th>Ping</th>',
+    '<th>Health</th>',
     '<th>Settlement Methods</th>',
   ].join('\n');
 };
