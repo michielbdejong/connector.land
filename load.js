@@ -3,8 +3,8 @@ xhr.responseType = 'json';
 xhr.open('GET', './data.json', true);
 xhr.onload = function() {
   var html = xhr.response.sort(function(a, b) {
-    if ((a.settlements === 'HTTP <span style="color:red">404</span> response') && (b.settlements !== 'HTTP <span style="color:red">404</span> response')) { return 1; }
-    if ((a.settlements !== 'HTTP <span style="color:red">404</span> response') && (b.settlements === 'HTTP <span style="color:red">404</span> response')) { return -1; }
+    if ((a.settlements.indexOf('<span style="color:red">') !== -1) && (b.settlements.indexOf('<span style="color:red">') === -1)) { return 1; }
+    if ((a.settlements.indexOf('<span style="color:red">') === -1) && (b.settlements.indexOf('<span style="color:red">') !== -1)) { return -1; }
     if ((a.health === 'OK') && (b.health !== 'OK')) { return -1; }
     if ((a.health !== 'OK') && (b.health === 'OK')) { return 1; }
     if ((a.ping) && (!b.ping)) { return -1; }
