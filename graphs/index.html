@@ -10,7 +10,7 @@
     </style>
   </head>
   <body>
-    <h3 id="heading"></h3>
+   <h4 id="heading"></h4>
     <!-- HTML -->
     <div id="chartdiv"></div>
   </body>
@@ -25,7 +25,7 @@
   <script>
   </script>
   <script>
-    function show (from , to) {
+    function show (from , to, field) {
       var xhr = new XMLHttpRequest();
       xhr.open('GET', `./${from}.json`, true)
       xhr.responseType = 'json';
@@ -35,7 +35,11 @@
         var bars = [];
         for (var timestamp in measurements) {
 console.log(timestamp, new Date(parseInt(timestamp)), typeof timestamp)
-          bars.push({ country: new Date(parseInt(timestamp)).getHours() + ':' + new Date(parseInt(timestamp)).getMinutes(), visits: measurements[timestamp].duration, color: '#04D215' });
+          bars.push({
+            country: new Date(parseInt(timestamp)).getHours() + ':' + new Date(parseInt(timestamp)).getMinutes(),
+            visits: measurements[timestamp][field],
+            color: (typeof measurements[timestamp].error === 'undefined' ? '#04D215' : "#FF0F00")
+          });
         }
   var chart = AmCharts.makeChart("chartdiv", {
       "theme": "light",
@@ -76,72 +80,16 @@ console.log(timestamp, new Date(parseInt(timestamp)), typeof timestamp)
   
   }, 0);
       }
-      document.getElementById('heading').innerHTML = `Plotting time (ms) for sending 1 cent from ${from} to ${to}`;
+      if (field === 'fee') {
+        document.getElementById('heading').innerHTML = `Plotting transaction fee (cents) for sending 1 cent from ${from} to ${to}`;
+      } else {
+        document.getElementById('heading').innerHTML = `Plotting time (ms) for sending 1 cent from ${from} to ${to} (red means error)`;
+      }
     }
 
     // ..
-    show('ilp-kit.michielbdejong.com', 'cornelius.sharafian.com')
-// [{
-//          "country": "USA",
-//          "visits": 4025,
-//          "color": "#FF0F00"
-//      }, {
-//          "country": "China",
-//          "visits": 1882,
-//          "color": "#FF6600"
-//      }, {
-//          "country": "Japan",
-//          "visits": 1809,
-//          "color": "#FF9E01"
-//      }, {
-//          "country": "Germany",
-//          "visits": 1322,
-//          "color": "#FCD202"
-//      }, {
-//          "country": "UK",
-//          "visits": 1122,
-//          "color": "#F8FF01"
-//      }, {
-//          "country": "France",
-//          "visits": 1114,
-//          "color": "#B0DE09"
-//      }, {
-//          "country": "India",
-//          "visits": 984,
-//          "color": "#04D215"
-//      }, {
-//          "country": "Spain",
-//          "visits": 711,
-//          "color": "#0D8ECF"
-//      }, {
-//          "country": "Netherlands",
-//          "visits": 665,
-//          "color": "#0D52D1"
-//      }, {
-//          "country": "Russia",
-//          "visits": 580,
-//          "color": "#2A0CD0"
-//      }, {
-//          "country": "South Korea",
-//          "visits": 443,
-//          "color": "#8A0CCF"
-//      }, {
-//          "country": "Canada",
-//          "visits": 441,
-//          "color": "#CD0D74"
-//      }, {
-//          "country": "Brazil",
-//          "visits": 395,
-//          "color": "#754DEB"
-//      }, {
-//          "country": "Italy",
-//          "visits": 386,
-//          "color": "#DDDDDD"
-//      }, {
-//          "country": "Taiwan",
-//          "visits": 338,
-//          "color": "#333333"
-//      }],
+    var parts = window.location.href.split('?')[1].split(':');
+    show(parts[1], parts[2], (parts[0] === 'fee' ? 'fee' : 'duration'));
   </script>
 
 </html>
