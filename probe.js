@@ -4,7 +4,8 @@ var https = require('https');
 var WebFinger = require('webfinger.js').WebFinger;
 var wf = new WebFinger();
 
-const DATA_FILE = './data.json';
+const DATA_FILE_HOSTS = './data/hosts.json';
+const OUTPUT_FILE = './stats.json';
 
 function checkUrl(i, path) {
   return new Promise((resolve) => {
@@ -109,7 +110,7 @@ var hosts;
 var hostsJson;
 
 try {
-  hostsJson = fs.readFileSync(DATA_FILE);
+  hostsJson = fs.readFileSync(DATA_FILE_HOSTS);
   hosts = JSON.parse(hostsJson);
 } catch(e) {
   console.error('Could not read ./data.json', e);
@@ -124,7 +125,7 @@ for (var i=0; i<hosts.length; i++) {
   promises.push(checkSettlements(i));
 }
 Promise.all(promises).then(() => {
-  fs.writeFileSync(DATA_FILE, '[\n' +
+  fs.writeFileSync(OUTPUT_FILE, '[\n' +
     hosts.map(obj => `  ${JSON.stringify(obj)}`).join(',\n') +
     '\n]\n');
 });

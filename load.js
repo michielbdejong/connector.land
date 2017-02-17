@@ -1,6 +1,6 @@
 var xhr = new XMLHttpRequest();
 xhr.responseType = 'json';
-xhr.open('GET', './data.json', true);
+xhr.open('GET', './stats.json', true);
 xhr.onload = function() {
   var html = xhr.response.sort(function(a, b) {
     if ((('' + a.version).indexOf('<span style="color:green">') !== -1) && (('' + b.version).indexOf('<span style="color:green">') === -1)) { return -1; }
