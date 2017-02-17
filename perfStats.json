@@ -1,110 +1,110 @@
 {
   "cornelius.sharafian.com": {
-    "succeeded": 43,
-    "failed": 325,
-    "fees": 26,
-    "durations": 2699898,
-    "price": 0.6046511627906976,
-    "speed": 7336.679347826087,
-    "reliability": 0.11684782608695653
+    "succeeded": 46,
+    "failed": 346,
+    "fees": 29,
+    "durations": 2876433,
+    "price": 0.6304347826086957,
+    "speed": 7337.839285714285,
+    "reliability": 0.11734693877551021
   },
   "ilp-kit.michielbdejong.com": {
     "succeeded": 17,
-    "failed": 351,
+    "failed": 375,
     "fees": 6,
-    "durations": 1992327,
+    "durations": 2108479,
     "price": 0.35294117647058826,
-    "speed": 5413.932065217391,
-    "reliability": 0.04619565217391304
+    "speed": 5378.772959183673,
+    "reliability": 0.04336734693877551
   },
   "hive.dennisappelt.com": {
-    "succeeded": 5,
-    "failed": 355,
-    "fees": 3,
-    "durations": 1776713,
-    "price": 0.6,
-    "speed": 4935.313888888889,
-    "reliability": 0.013888888888888888
+    "succeeded": 8,
+    "failed": 376,
+    "fees": 5,
+    "durations": 1911505,
+    "price": 0.625,
+    "speed": 4977.877604166667,
+    "reliability": 0.020833333333333332
   },
   "pineapplesheep.ilp.rocks": {
-    "succeeded": 6,
-    "failed": 354,
-    "fees": 3,
-    "durations": 1789114,
-    "price": 0.5,
-    "speed": 4969.761111111111,
-    "reliability": 0.016666666666666666
+    "succeeded": 7,
+    "failed": 377,
+    "fees": 4,
+    "durations": 1911696,
+    "price": 0.5714285714285714,
+    "speed": 4978.375,
+    "reliability": 0.018229166666666668
   },
   "cygnus.vahehovhannisyan.com": {
     "succeeded": 0,
-    "failed": 352,
+    "failed": 376,
     "fees": 0,
-    "durations": 2154290,
+    "durations": 2309586,
     "price": null,
-    "speed": 6120.142045454545,
+    "speed": 6142.515957446809,
     "reliability": 0
   },
   "nexus.justmoon.com": {
-    "succeeded": 24,
-    "failed": 328,
-    "fees": 14,
-    "durations": 2345711,
-    "price": 0.5833333333333334,
-    "speed": 6663.951704545455,
-    "reliability": 0.06818181818181818
+    "succeeded": 25,
+    "failed": 351,
+    "fees": 15,
+    "durations": 2510417,
+    "price": 0.6,
+    "speed": 6676.640957446809,
+    "reliability": 0.06648936170212766
   },
   "royalcrypto.com": {
     "succeeded": 0,
-    "failed": 352,
+    "failed": 376,
     "fees": 0,
-    "durations": 2016834,
+    "durations": 2157126,
     "price": null,
-    "speed": 5729.642045454545,
+    "speed": 5737.037234042553,
     "reliability": 0
   },
   "john.jpvbs.com": {
-    "succeeded": 30,
-    "failed": 322,
-    "fees": 22,
-    "durations": 2605206,
-    "price": 0.7333333333333333,
-    "speed": 7401.153409090909,
-    "reliability": 0.08522727272727272
+    "succeeded": 32,
+    "failed": 344,
+    "fees": 24,
+    "durations": 2770712,
+    "price": 0.75,
+    "speed": 7368.914893617021,
+    "reliability": 0.0851063829787234
   },
   "michiel-is-not-available.herokuapp.com": {
     "succeeded": 0,
-    "failed": 336,
+    "failed": 360,
     "fees": 0,
-    "durations": 1687451,
+    "durations": 1809059,
     "price": null,
-    "speed": 5022.175595238095,
+    "speed": 5025.163888888889,
     "reliability": 0
   },
   "ggizi.herokuapp.com": {
     "succeeded": 24,
-    "failed": 312,
+    "failed": 336,
     "fees": 20,
-    "durations": 2424895,
+    "durations": 2593269,
     "price": 0.8333333333333334,
-    "speed": 7216.949404761905,
-    "reliability": 0.07142857142857142
+    "speed": 7203.525,
+    "reliability": 0.06666666666666667
   },
   "best-ilp.herokuapp.com": {
-    "succeeded": 21,
-    "failed": 315,
-    "fees": 15,
-    "durations": 2560756,
-    "price": 0.7142857142857143,
-    "speed": 7621.297619047619,
-    "reliability": 0.0625
+    "succeeded": 23,
+    "failed": 337,
+    "fees": 16,
+    "durations": 2724347,
+    "price": 0.6956521739130435,
+    "speed": 7567.6305555555555,
+    "reliability": 0.06388888888888888
   },
   "someledger.herokuapp.com": {
     "succeeded": 14,
-    "failed": 322,
+    "failed": 346,
     "fees": 11,
-    "durations": 2677109,
+    "durations": 2861505,
     "price": 0.7857142857142857,
-    "speed": 7967.586309523809,
-    "reliability": 0.041666666666666664
+    "speed": 7948.625,
+    "reliability": 0.03888888888888889
   }
 }
