@@ -77,7 +77,7 @@ for (var from in passwords) {
 }
 Promise.all(promises).then(() => {
   console.log(results);
-  fs.writeFileSync('performance.json', JSON.stringify(results));
+  fs.writeFileSync(`./performance/${new Date().getTime()}.json`, JSON.stringify(results));
   // have to work out why this is necessary:
   process.exit(0)
 });
