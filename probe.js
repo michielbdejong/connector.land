@@ -4,7 +4,7 @@ var https = require('https');
 var WebFinger = require('webfinger.js').WebFinger;
 var wf = new WebFinger();
 
-const DATA_FILE_HOSTS = './data/hosts.json';
+var hosts = require('./data/hosts.js').hosts;
 const OUTPUT_FILE = './stats.json';
 
 function checkUrl(i, path) {
@@ -106,16 +106,6 @@ function pingHost(i) {
 }
 
 // ...
-var hosts;
-var hostsJson;
-
-try {
-  hostsJson = fs.readFileSync(DATA_FILE_HOSTS);
-  hosts = JSON.parse(hostsJson);
-} catch(e) {
-  console.error('Could not read ./data.json', e);
-  process.exit(1);
-}
 var promises = [];
 //for (var i=16; i<17; i++) {
 for (var i=0; i<hosts.length; i++) {
