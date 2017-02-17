@@ -1,6 +1,6 @@
 var xhr = new XMLHttpRequest();
 xhr.responseType = 'json';
-xhr.open('GET', './stats.json', true);
+xhr.open('GET', 'https://stats.connector.land', true);
 xhr.onload = function() {
   document.getElementById("header-row").innerHTML = [
     '<th>ILP Kit URL</th>',
