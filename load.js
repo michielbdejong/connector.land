@@ -4,6 +4,9 @@ xhr.open('GET', 'https://stats.connector.land', true);
 xhr.onload = function() {
   document.getElementById("header-row").innerHTML = [
     '<th>ILP Kit URL</th>',
+    '<th>Reliability (success rate)</th>',
+    '<th>Speed (one transaction)</th>',
+    '<th>Price (commission fee on a 0.01 EUR/USD transaction)</th>',
     '<th>ILP Kit Version</th>',
     '<th>Ledger Prefix</th>',
     '<th>Owner\'s Connector Account</th>',

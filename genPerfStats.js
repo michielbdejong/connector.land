@@ -22,6 +22,44 @@ fs.readdirSync('./performance').map(filename => {
     }
   }
 });
+var stats = {};
 for (var server in merged) {
+  var failed = 0;
+  var succeeded = 0;
+  var fees = 0;
+  var durations = 0;
+  for (var other in merged[server].outgoing) {
+    for (var timestamp in merged[server].outgoing[other]) {
+      if (merged[server].outgoing[other][timestamp].error) {
+        failed++;
+      } else {
+        succeeded++;
+        fees += merged[server].outgoing[other][timestamp].fee;
+      }
+      durations += merged[server].outgoing[other][timestamp].duration;
+    }
+  }
+  for (var other in merged[server].incoming) {
+    for (var timestamp in merged[server].incoming[other]) {
+      if (merged[server].incoming[other][timestamp].error) {
+        failed++;
+      } else {
+        succeeded++;
+        fees += merged[server].incoming[other][timestamp].fee;
+      }
+      durations += merged[server].incoming[other][timestamp].duration;
+    }
+  }
+  stats[server] = {
+    succeeded,
+    failed,
+    fees,
+    durations,
+    price: fees / succeeded,
+    speed: durations / (succeeded + failed),
+    reliability: succeeded / (succeeded + failed)
+  };
+  fs.writeFileSync('./perfStats.json', JSON.stringify(stats, null, 2));
   fs.writeFileSync(`./graphs/${server}.json`, JSON.stringify(merged[server], null, 2));
 }
+

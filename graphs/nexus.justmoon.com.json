@@ -54,6 +54,14 @@
       "1487343928121": {
         "error": {},
         "duration": 3847
+      },
+      "1487344547793": {
+        "error": {},
+        "duration": 3806
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 3796
       }
     },
     "hive.dennisappelt.com": {
@@ -124,6 +132,18 @@
           "name": "NotAcceptedError"
         },
         "duration": 6471
+      },
+      "1487344547793": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 4969
+      },
+      "1487345166195": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 5967
       }
     },
     "pineapplesheep.ilp.rocks": {
@@ -192,6 +212,18 @@
           "name": "NotAcceptedError"
         },
         "duration": 6030
+      },
+      "1487344547793": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 5317
+      },
+      "1487345166195": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 6372
       }
     },
     "nexus.justmoon.com": {
@@ -254,6 +286,14 @@
       "1487343928121": {
         "fee": 0,
         "duration": 5627
+      },
+      "1487344547793": {
+        "error": {},
+        "duration": 14156
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 14204
       }
     },
     "cygnus.vahehovhannisyan.com": {
@@ -308,6 +348,14 @@
       "1487343928121": {
         "error": {},
         "duration": 4026
+      },
+      "1487344547793": {
+        "error": {},
+        "duration": 4165
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 4869
       }
     },
     "john.jpvbs.com": {
@@ -368,6 +416,16 @@
       "1487343928121": {
         "error": {},
         "duration": 16153
+      },
+      "1487344547793": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 7075
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 17052
       }
     },
     "cornelius.sharafian.com": {
@@ -424,6 +482,14 @@
       "1487343928121": {
         "fee": 1,
         "duration": 8343
+      },
+      "1487344547793": {
+        "fee": 1,
+        "duration": 6703
+      },
+      "1487345166195": {
+        "fee": 1,
+        "duration": 7314
       }
     },
     "royalcrypto.com": {
@@ -478,6 +544,14 @@
       "1487343928121": {
         "error": {},
         "duration": 5179
+      },
+      "1487344547793": {
+        "error": {},
+        "duration": 5869
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 5965
       }
     },
     "michiel-is-not-available.herokuapp.com": {
@@ -528,6 +602,14 @@
       "1487343928121": {
         "error": {},
         "duration": 5981
+      },
+      "1487344547793": {
+        "error": {},
+        "duration": 4474
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 4519
       }
     },
     "ggizi.herokuapp.com": {
@@ -584,6 +666,14 @@
       "1487343928121": {
         "fee": 0,
         "duration": 9667
+      },
+      "1487344547793": {
+        "error": {},
+        "duration": 5970
+      },
+      "1487345166195": {
+        "fee": 1,
+        "duration": 10007
       }
     },
     "best-ilp.herokuapp.com": {
@@ -644,6 +734,16 @@
           "name": "NotAcceptedError"
         },
         "duration": 7526
+      },
+      "1487344547793": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 7875
+      },
+      "1487345166195": {
+        "fee": 0,
+        "duration": 10763
       }
     },
     "someledger.herokuapp.com": {
@@ -700,6 +800,16 @@
       "1487343928121": {
         "fee": 0,
         "duration": 10592
+      },
+      "1487344547793": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9466
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 6274
       }
     }
   },
@@ -758,6 +868,14 @@
       "1487343928121": {
         "error": {},
         "duration": 4398
+      },
+      "1487344547793": {
+        "error": {},
+        "duration": 4075
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 15827
       }
     },
     "ilp-kit.michielbdejong.com": {
@@ -812,6 +930,14 @@
       "1487343928121": {
         "error": {},
         "duration": 4225
+      },
+      "1487344547793": {
+        "error": {},
+        "duration": 4139
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 4667
       }
     },
     "john.jpvbs.com": {
@@ -876,6 +1002,16 @@
       "1487343928121": {
         "fee": 1,
         "duration": 8104
+      },
+      "1487344547793": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 7124
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 4847
       }
     },
     "pineapplesheep.ilp.rocks": {
@@ -938,6 +1074,14 @@
       "1487343928121": {
         "error": {},
         "duration": 4156
+      },
+      "1487344547793": {
+        "error": {},
+        "duration": 14169
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 5121
       }
     },
     "cygnus.vahehovhannisyan.com": {
@@ -996,6 +1140,14 @@
           "name": "NotAcceptedError"
         },
         "duration": 5095
+      },
+      "1487344547793": {
+        "error": {},
+        "duration": 4949
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 14919
       }
     },
     "nexus.justmoon.com": {
@@ -1058,6 +1210,14 @@
       "1487343928121": {
         "fee": 0,
         "duration": 5627
+      },
+      "1487344547793": {
+        "error": {},
+        "duration": 14156
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 14204
       }
     },
     "cornelius.sharafian.com": {
@@ -1120,6 +1280,16 @@
       "1487343928121": {
         "error": {},
         "duration": 15274
+      },
+      "1487344547793": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 5447
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 16190
       }
     },
     "royalcrypto.com": {
@@ -1174,6 +1344,14 @@
       "1487343928121": {
         "error": {},
         "duration": 6255
+      },
+      "1487344547793": {
+        "error": {},
+        "duration": 5917
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 6352
       }
     },
     "michiel-is-not-available.herokuapp.com": {
@@ -1224,6 +1402,14 @@
       "1487343928121": {
         "error": {},
         "duration": 5175
+      },
+      "1487344547793": {
+        "error": {},
+        "duration": 4249
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 5205
       }
     },
     "ggizi.herokuapp.com": {
@@ -1282,6 +1468,14 @@
       "1487343928121": {
         "error": {},
         "duration": 5026
+      },
+      "1487344547793": {
+        "error": {},
+        "duration": 5428
+      },
+      "1487345166195": {
+        "fee": 1,
+        "duration": 10216
       }
     },
     "best-ilp.herokuapp.com": {
@@ -1342,6 +1536,16 @@
           "name": "NotAcceptedError"
         },
         "duration": 7096
+      },
+      "1487344547793": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 7442
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 6382
       }
     },
     "someledger.herokuapp.com": {
@@ -1402,6 +1606,16 @@
           "name": "NotAcceptedError"
         },
         "duration": 6384
+      },
+      "1487344547793": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 6106
+      },
+      "1487345166195": {
+        "error": {},
+        "duration": 17627
       }
     }
   }

@@ -3,6 +3,7 @@ var ping = require('ping');
 var https = require('https');
 var WebFinger = require('webfinger.js').WebFinger;
 var wf = new WebFinger();
+var perfStats = require('./perfStats.json');
 
 var hosts = require('./data/hosts.js').hosts;
 const OUTPUT_FILE = './stats.json';
@@ -113,6 +114,15 @@ for (var i=0; i<hosts.length; i++) {
   promises.push(pingHost(i));
   promises.push(checkHealth(i));
   promises.push(checkSettlements(i));
+  if (typeof perfStats[hosts[i].hostname] !== 'undefined') {
+    hosts[i].speed = perfStats[hosts[i].hostname].speed;
+    hosts[i].price = perfStats[hosts[i].hostname].price;
+    hosts[i].reliability = perfStats[hosts[i].hostname].reliability;
+  } else {
+    hosts[i].speed = 0;
+    hosts[i].price = 0;
+    hosts[i].reliability = 0;
+  } 
 }
 Promise.all(promises).then(() => {
   fs.writeFileSync(OUTPUT_FILE, '[\n' +
@@ -128,11 +138,20 @@ console.log(a.settlements, b.settlements)
     if ((!a.ping) && (b.ping)) { return 1; }
     if ((a.settlements === 'None') && (b.settlements !== 'None')) { return 1; }
     if ((a.settlements !== 'None') && (b.settlements === 'None')) { return -1; }
+    if (a.reliability < b.reliability) { return -1; }
+    if (a.reliability > b.reliability) { return 1; }
+    if (a.speed < b.speed) { return -1; }
+    if (a.speed > b.speed) { return 1; }
+    if (a.price < b.price) { return -1; }
+    if (a.price > b.price) { return 1; }
     if (a.hostname < b.hostname) { return -1; }
     if (a.hostname > b.hostname) { return 1; }
     return 0;
   }).map(line =>
     `<tr><td><a href="https://${line.hostname}">${line.hostname}</a></td>` +
+        `<td>${Math.floor(1000*line.reliability)/10}%</td>` +
+        `<td>${Math.floor(line.speed)/1000} seconds</td>` +
+        `<td>${Math.floor(100*line.price)}%</td>` +
         `<td>${line.version}</td>` +
         `<td>${line.prefix}</td>` +
         `<td>${line.owner}</td>` +
