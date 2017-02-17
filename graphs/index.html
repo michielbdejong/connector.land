@@ -13,6 +13,21 @@
    <h4 id="heading"></h4>
     <!-- HTML -->
     <div id="chartdiv"></div>
+    <table style="color:red" border="1">
+<tr><td>        <h2>Graph:</h2>                                             </td><td>   <h2>From:</h2>                                                                                                      </td><td> <h2>To:</h2></td></tr>
+<tr><td>        <h5 onclick="parts[0] = 'fee';go();">fee</h5>               </td><td>   <h5 onclick="parts[1] = 'ilp-kit.michielbdejong.com';go();">ilp-kit.michielbdejong.com</h5>                         </td><td> <h5 onclick="parts[2] = 'ilp-kit.michielbdejong.com';go();">ilp-kit.michielbdejong.com</h5></td></tr>
+<tr><td>        <h5 onclick="parts[0] = 'duration';go();">duration</h5>     </td><td>   <h5 onclick="parts[1] = 'cornelius.sharafian.com';go();">cornelius.sharafian.com</h5>                               </td><td> <h5 onclick="parts[2] = 'cornelius.sharafian.com';go();">cornelius.sharafian.com</h5></td></tr>
+<tr><td>                                                                    </td><td>   <h5 onclick="parts[1] = 'pineapplesheep.ilp.rocks';go();">pineapplesheep.ilp.rocks</h5>                             </td><td> <h5 onclick="parts[2] = 'pineapplesheep.ilp.rocks';go();">pineapplesheep.ilp.rocks</h5></td></tr>
+<tr><td>                                                                    </td><td>   <h5 onclick="parts[1] = 'hive.dennisappelt.com';go();">hive.dennisappelt.com</h5>                                   </td><td> <h5 onclick="parts[2] = 'hive.dennisappelt.com';go();">hive.dennisappelt.com</h5></td></tr>
+<tr><td>                                                                    </td><td>   <h5 onclick="parts[1] = 'nexus.justmoon.com';go();">nexus.justmoon.com</h5>                                         </td><td> <h5 onclick="parts[2] = 'nexus.justmoon.com';go();">nexus.justmoon.com</h5></td></tr>
+<tr><td>                                                                    </td><td>   <h5 onclick="parts[1] = 'cygnus.vahehovhannisyan.com';go();">cygnus.vahehovhannisyan.com</h5>                       </td><td> <h5 onclick="parts[2] = 'cygnus.vahehovhannisyan.com';go();">cygnus.vahehovhannisyan.com</h5></td></tr>
+<tr><td>                                                                    </td><td>   <h5 onclick="parts[1] = 'john.jpvbs.com';go();">john.jpvbs.com</h5>                                                 </td><td> <h5 onclick="parts[2] = 'john.jpvbs.com';go();">john.jpvbs.com</h5></td></tr>
+<tr><td>                                                                    </td><td>   <h5 onclick="parts[1] = 'royalcrypto.com';go();">royalcrypto.com</h5>                                               </td><td> <h5 onclick="parts[2] = 'royalcrypto.com';go();">royalcrypto.com</h5></td></tr>
+<tr><td>                                                                    </td><td>   <h5 onclick="parts[1] = 'michiel-is-not-available.herokuapp.com';go();">michiel-is-not-available.herokuapp.com</h5> </td><td> <h5 onclick="parts[2] = 'michiel-is-not-available.herokuapp.com';go();">michiel-is-not-available.herokuapp.com</h5></td></tr>
+<tr><td>                                                                    </td><td>   <h5 onclick="parts[1] = 'best-ilp.herokuapp.com';go();">best-ilp.herokuapp.com</h5>                                 </td><td> <h5 onclick="parts[2] = 'best-ilp.herokuapp.com';go();">best-ilp.herokuapp.com</h5></td></tr>
+<tr><td>                                                                    </td><td>   <h5 onclick="parts[1] = 'someledger.herokuapp.com';go();">someledger.herokuapp.com</h5>                             </td><td> <h5 onclick="parts[2] = 'someledger.herokuapp.com';go();">someledger.herokuapp.com</h5></td></tr>
+<tr><td>                                                                    </td><td>   <h5 onclick="parts[1] = 'ggizi.herokuapp.com';go();">ggizi.herokuapp.com</h5>                                       </td><td> <h5 onclick="parts[2] = 'ggizi.herokuapp.com';go();">ggizi.herokuapp.com</h5> </td></tr>
+    </table>
   </body>
   <!-- Resources -->
   <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
@@ -88,7 +103,10 @@ console.log(timestamp, new Date(parseInt(timestamp)), typeof timestamp)
     }
 
     // ..
-    var parts = window.location.href.split('?')[1].split(':');
+    parts = window.location.href.split('?')[1].split(':');
+    function go() {
+      window.location = '?'+parts.join(':');
+    }
     show(parts[1], parts[2], (parts[0] === 'fee' ? 'fee' : 'duration'));
   </script>
 
