@@ -21,6 +21,8 @@ module.exports.hosts = [
   { "hostname": "someledger.herokuapp.com",               "prefix": "",                                 "owner": ""},
   { "hostname": "michiel-is-not-available.herokuapp.com", "prefix": "us.usd.michiel-is-not-available.", "owner": "admin"},
   { "hostname": "royalcrypto.com",                        "prefix": "ca.usd.royalcrypto.",              "owner": "twarden"},
+  { "hostname": "ggizi.herokuapp.com",                                       "prefix": "",                                 "owner": ""},
+  { "hostname": "michiel-eur.herokuapp.com",                                       "prefix": "",                                 "owner": ""},
 //  { "hostname": "",                                       "prefix": "",                                 "owner": ""},
 
 // ^^^ Add your ILP host by duplicating, uncommenting, and editing the line above ^^^
