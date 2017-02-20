@@ -4,48 +4,80 @@
       "1487612182630": {
         "fee": 0,
         "duration": 3600
+      },
+      "1487612498095": {
+        "fee": 0,
+        "duration": 3620
       }
     },
     "ilp-kit.michielbdejong.com": {
       "1487612182630": {
         "fee": -0.05802562170000008,
         "duration": 2937
+      },
+      "1487612498095": {
+        "fee": -0.05802562170000008,
+        "duration": 3470
       }
     },
     "cornelius.sharafian.com": {
       "1487612182630": {
         "fee": 0,
         "duration": 4545
+      },
+      "1487612498095": {
+        "fee": 0,
+        "duration": 4801
       }
     },
     "hive.dennisappelt.com": {
       "1487612182630": {
         "fee": 0,
         "duration": 2564
+      },
+      "1487612498095": {
+        "fee": 0,
+        "duration": 2853
       }
     },
     "cygnus.vahehovhannisyan.com": {
       "1487612182630": {
         "fee": 0,
         "duration": 3606
+      },
+      "1487612498095": {
+        "fee": 0,
+        "duration": 4280
       }
     },
     "john.jpvbs.com": {
       "1487612182630": {
         "fee": 0,
         "duration": 3449
+      },
+      "1487612498095": {
+        "fee": 0,
+        "duration": 3525
       }
     },
     "nexus.justmoon.com": {
       "1487612182630": {
         "fee": 0,
         "duration": 4210
+      },
+      "1487612498095": {
+        "fee": 0,
+        "duration": 4755
       }
     },
     "michiel-is-not-available.herokuapp.com": {
       "1487612182630": {
         "fee": 0,
         "duration": 3615
+      },
+      "1487612498095": {
+        "fee": 0,
+        "duration": 3334
       }
     }
   },
@@ -54,48 +86,80 @@
       "1487612182630": {
         "fee": 1,
         "duration": 4008
+      },
+      "1487612498095": {
+        "fee": 1,
+        "duration": 4247
       }
     },
     "ilp-kit.michielbdejong.com": {
       "1487612182630": {
         "fee": 1,
         "duration": 4137
+      },
+      "1487612498095": {
+        "fee": 1,
+        "duration": 3909
       }
     },
     "cornelius.sharafian.com": {
       "1487612182630": {
         "fee": 0,
         "duration": 4357
+      },
+      "1487612498095": {
+        "fee": 0,
+        "duration": 4723
       }
     },
     "hive.dennisappelt.com": {
       "1487612182630": {
         "fee": 1,
         "duration": 3076
+      },
+      "1487612498095": {
+        "fee": 1,
+        "duration": 3601
       }
     },
     "cygnus.vahehovhannisyan.com": {
       "1487612182630": {
         "fee": 0,
         "duration": 4097
+      },
+      "1487612498095": {
+        "fee": 0,
+        "duration": 4446
       }
     },
     "john.jpvbs.com": {
       "1487612182630": {
         "fee": 0,
         "duration": 4049
+      },
+      "1487612498095": {
+        "fee": 0,
+        "duration": 3872
       }
     },
     "nexus.justmoon.com": {
       "1487612182630": {
         "fee": 0,
         "duration": 5186
+      },
+      "1487612498095": {
+        "fee": 0,
+        "duration": 4249
       }
     },
     "michiel-is-not-available.herokuapp.com": {
       "1487612182630": {
         "fee": 0,
         "duration": 4484
+      },
+      "1487612498095": {
+        "fee": 0,
+        "duration": 3922
       }
     }
   }
