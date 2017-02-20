@@ -72,7 +72,9 @@ var promises = [];
 var results = {};
 for (var from in passwords) {
   for (var to in passwords) {
-    runTest(from, to);
+    if (from !== to) {
+      runTest(from, to);
+    }
   }
 }
 Promise.all(promises).then(() => {
