@@ -128,22 +128,22 @@ Promise.all(promises).then(() => {
   fs.writeFileSync(OUTPUT_FILE, '[\n' +
     hosts.sort(function(a, b) {
 console.log(a.settlements, b.settlements)
-    if ((('' + a.version).indexOf('<span style="color:green">') !== -1) && (('' + b.version).indexOf('<span style="color:green">') === -1)) { return -1; }
-    if ((('' + a.version).indexOf('<span style="color:green">') === -1) && (('' + b.version).indexOf('<span style="color:green">') !== -1)) { return 1; }
     if ((('' + a.settlements).indexOf('<span style="color:red">') !== -1) && (('' + b.settlements).indexOf('<span style="color:red">') === -1)) { return 1; }
     if ((('' + a.settlements).indexOf('<span style="color:red">') === -1) && (('' + b.settlements).indexOf('<span style="color:red">') !== -1)) { return -1; }
+    if (a.reliability < b.reliability) { return 1; }
+    if (a.reliability > b.reliability) { return -1; }
+    if (a.speed < b.speed) { return -1; }
+    if (a.speed > b.speed) { return 1; }
+    if (a.price < b.price) { return -1; }
+    if (a.price > b.price) { return 1; }
     if ((a.health === 'OK') && (b.health !== 'OK')) { return -1; }
     if ((a.health !== 'OK') && (b.health === 'OK')) { return 1; }
     if ((a.ping) && (!b.ping)) { return -1; }
     if ((!a.ping) && (b.ping)) { return 1; }
     if ((a.settlements === 'None') && (b.settlements !== 'None')) { return 1; }
     if ((a.settlements !== 'None') && (b.settlements === 'None')) { return -1; }
-    if (a.reliability < b.reliability) { return -1; }
-    if (a.reliability > b.reliability) { return 1; }
-    if (a.speed < b.speed) { return -1; }
-    if (a.speed > b.speed) { return 1; }
-    if (a.price < b.price) { return -1; }
-    if (a.price > b.price) { return 1; }
+//    if ((('' + a.version).indexOf('<span style="color:green">') !== -1) && (('' + b.version).indexOf('<span style="color:green">') === -1)) { return -1; }
+//    if ((('' + a.version).indexOf('<span style="color:green">') === -1) && (('' + b.version).indexOf('<span style="color:green">') !== -1)) { return 1; }
     if (a.hostname < b.hostname) { return -1; }
     if (a.hostname > b.hostname) { return 1; }
     return 0;
