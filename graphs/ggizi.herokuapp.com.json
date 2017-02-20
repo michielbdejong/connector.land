@@ -1480,6 +1480,40 @@
       "1487598251693": {
         "error": {},
         "duration": 19409
+      },
+      "1487598639999": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 8880
+      },
+      "1487598743728": {
+        "fee": 0,
+        "duration": 11978
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 18691
+      },
+      "1487598904019": {
+        "fee": 0,
+        "duration": 9615
+      },
+      "1487599564223": {
+        "fee": 0,
+        "duration": 10128
+      },
+      "1487600226053": {
+        "fee": 0,
+        "duration": 10698
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 18961
+      },
+      "1487601549567": {
+        "fee": 0,
+        "duration": 10661
       }
     },
     "ilp-kit.michielbdejong.com": {
@@ -2590,6 +2624,42 @@
       "1487598251693": {
         "error": {},
         "duration": 19046
+      },
+      "1487598639999": {
+        "fee": -0.05443181929999999,
+        "duration": 11301
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 19954
+      },
+      "1487598820850": {
+        "fee": -0.05443181929999999,
+        "duration": 10892
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 18125
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 17990
+      },
+      "1487600226053": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9033
+      },
+      "1487600887827": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 8829
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 18378
       }
     },
     "pineapplesheep.ilp.rocks": {
@@ -4130,6 +4200,54 @@
           "name": "NotAcceptedError"
         },
         "duration": 8813
+      },
+      "1487598639999": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 8467
+      },
+      "1487598743728": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9610
+      },
+      "1487598820850": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 8127
+      },
+      "1487598904019": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 8298
+      },
+      "1487599564223": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 8314
+      },
+      "1487600226053": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 8262
+      },
+      "1487600887827": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 8933
+      },
+      "1487601549567": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9050
       }
     },
     "nexus.justmoon.com": {
@@ -5312,6 +5430,38 @@
       "1487598251693": {
         "error": {},
         "duration": 8697
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 6893
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 7624
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 8129
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 7957
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 7091
+      },
+      "1487600226053": {
+        "error": {},
+        "duration": 7949
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 7695
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 7953
       }
     },
     "michiel-is-not-available.herokuapp.com": {
@@ -6422,6 +6572,38 @@
       "1487598251693": {
         "error": {},
         "duration": 7483
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 7779
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 8440
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 7749
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 6948
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 6652
+      },
+      "1487600226053": {
+        "error": {},
+        "duration": 7580
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 7957
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 7184
       }
     },
     "cygnus.vahehovhannisyan.com": {
@@ -7532,6 +7714,38 @@
       "1487598251693": {
         "error": {},
         "duration": 7725
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 6918
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 8115
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 7544
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 6881
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 6685
+      },
+      "1487600226053": {
+        "error": {},
+        "duration": 7763
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 7305
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 6707
       }
     },
     "john.jpvbs.com": {
@@ -8770,6 +8984,40 @@
       "1487598251693": {
         "fee": 1,
         "duration": 13262
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 19708
+      },
+      "1487598743728": {
+        "fee": 1,
+        "duration": 13161
+      },
+      "1487598820850": {
+        "fee": 1,
+        "duration": 13048
+      },
+      "1487598904019": {
+        "fee": 1,
+        "duration": 11844
+      },
+      "1487599564223": {
+        "fee": 1,
+        "duration": 12377
+      },
+      "1487600226053": {
+        "fee": 0,
+        "duration": 12610
+      },
+      "1487600887827": {
+        "fee": 1,
+        "duration": 12727
+      },
+      "1487601549567": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10043
       }
     },
     "cornelius.sharafian.com": {
@@ -9918,6 +10166,42 @@
           "name": "NotAcceptedError"
         },
         "duration": 10679
+      },
+      "1487598639999": {
+        "fee": 1,
+        "duration": 12718
+      },
+      "1487598743728": {
+        "fee": 1,
+        "duration": 13095
+      },
+      "1487598820850": {
+        "fee": 1,
+        "duration": 11986
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 18976
+      },
+      "1487599564223": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9748
+      },
+      "1487600226053": {
+        "fee": 1,
+        "duration": 12404
+      },
+      "1487600887827": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10044
+      },
+      "1487601549567": {
+        "fee": 1,
+        "duration": 12325
       }
     },
     "ggizi.herokuapp.com": {
@@ -11100,6 +11384,40 @@
       "1487598251693": {
         "error": {},
         "duration": 17997
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 17929
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 18262
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 17228
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 16961
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 17146
+      },
+      "1487600226053": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 8993
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 17968
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 17412
       }
     },
     "best-ilp.herokuapp.com": {
@@ -12668,6 +12986,54 @@
           "name": "NotAcceptedError"
         },
         "duration": 11231
+      },
+      "1487598639999": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 11173
+      },
+      "1487598743728": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 11721
+      },
+      "1487598820850": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 11083
+      },
+      "1487598904019": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10281
+      },
+      "1487599564223": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10384
+      },
+      "1487600226053": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10783
+      },
+      "1487600887827": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 11399
+      },
+      "1487601549567": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10716
       }
     },
     "royalcrypto.com": {
@@ -13778,6 +14144,38 @@
       "1487598251693": {
         "error": {},
         "duration": 9230
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 9594
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 10146
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 9004
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 8690
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 8551
+      },
+      "1487600226053": {
+        "error": {},
+        "duration": 9163
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 9264
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 8890
       }
     },
     "someledger.herokuapp.com": {
@@ -14980,12 +15378,76 @@
       "1487598251693": {
         "error": {},
         "duration": 55896
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 55880
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 55997
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 55895
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 55084
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 55115
+      },
+      "1487600226053": {
+        "error": {},
+        "duration": 55433
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 55744
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 55554
       }
     },
     "michiel-eur.herokuapp.com": {
       "1487598251693": {
         "error": {},
         "duration": 7911
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 8880
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 8343
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 8012
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 7506
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 7883
+      },
+      "1487600226053": {
+        "error": {},
+        "duration": 8023
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 8455
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 8079
       }
     }
   },
@@ -16098,6 +16560,38 @@
       "1487598251693": {
         "error": {},
         "duration": 7148
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 7065
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 7162
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 6777
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 7196
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 6106
+      },
+      "1487600226053": {
+        "error": {},
+        "duration": 7242
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 7813
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 7381
       }
     },
     "pineapplesheep.ilp.rocks": {
@@ -17340,6 +17834,38 @@
       "1487598251693": {
         "error": {},
         "duration": 6779
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 7679
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 8076
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 7084
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 6903
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 7476
+      },
+      "1487600226053": {
+        "error": {},
+        "duration": 6776
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 6815
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 7738
       }
     },
     "hive.dennisappelt.com": {
@@ -18648,6 +19174,38 @@
           "name": "NotAcceptedError"
         },
         "duration": 9066
+      },
+      "1487598639999": {
+        "fee": 1,
+        "duration": 10876
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 18454
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 18164
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 17899
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 17679
+      },
+      "1487600226053": {
+        "fee": 1,
+        "duration": 10365
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 18277
+      },
+      "1487601549567": {
+        "fee": 1,
+        "duration": 10548
       }
     },
     "michiel-is-not-available.herokuapp.com": {
@@ -19758,6 +20316,38 @@
       "1487598251693": {
         "error": {},
         "duration": 7617
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 8388
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 7627
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 7425
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 7650
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 7134
+      },
+      "1487600226053": {
+        "error": {},
+        "duration": 7898
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 7390
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 8301
       }
     },
     "nexus.justmoon.com": {
@@ -21202,6 +21792,48 @@
           "name": "NotAcceptedError"
         },
         "duration": 10506
+      },
+      "1487598639999": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9914
+      },
+      "1487598743728": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10858
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 19563
+      },
+      "1487598904019": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9004
+      },
+      "1487599564223": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10261
+      },
+      "1487600226053": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9872
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 18765
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 19520
       }
     },
     "cygnus.vahehovhannisyan.com": {
@@ -22646,6 +23278,48 @@
       "1487598251693": {
         "error": {},
         "duration": 19600
+      },
+      "1487598639999": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10224
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 20113
+      },
+      "1487598820850": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9913
+      },
+      "1487598904019": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9302
+      },
+      "1487599564223": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9568
+      },
+      "1487600226053": {
+        "error": {},
+        "duration": 19319
+      },
+      "1487600887827": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10029
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 19364
       }
     },
     "ggizi.herokuapp.com": {
@@ -23828,6 +24502,40 @@
       "1487598251693": {
         "error": {},
         "duration": 17997
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 17929
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 18262
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 17228
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 16961
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 17146
+      },
+      "1487600226053": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 8993
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 17968
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 17412
       }
     },
     "royalcrypto.com": {
@@ -24938,6 +25646,38 @@
       "1487598251693": {
         "error": {},
         "duration": 9120
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 10089
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 9920
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 8920
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 8429
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 8660
+      },
+      "1487600226053": {
+        "error": {},
+        "duration": 9236
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 8608
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 9251
       }
     },
     "john.jpvbs.com": {
@@ -26378,6 +27118,48 @@
           "name": "NotAcceptedError"
         },
         "duration": 10355
+      },
+      "1487598639999": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10467
+      },
+      "1487598743728": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10972
+      },
+      "1487598820850": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9914
+      },
+      "1487598904019": {
+        "fee": 1.9999999999999996,
+        "duration": 12260
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 18954
+      },
+      "1487600226053": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10046
+      },
+      "1487600887827": {
+        "fee": 1,
+        "duration": 12874
+      },
+      "1487601549567": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9952
       }
     },
     "best-ilp.herokuapp.com": {
@@ -27644,6 +28426,38 @@
       "1487598251693": {
         "error": {},
         "duration": 10163
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 9822
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 9741
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 8654
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 8293
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 8548
+      },
+      "1487600226053": {
+        "error": {},
+        "duration": 8960
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 8955
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 9095
       }
     },
     "someledger.herokuapp.com": {
@@ -28834,6 +29648,38 @@
       "1487598251693": {
         "error": {},
         "duration": 10033
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 10026
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 10023
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 10002
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 10003
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 10000
+      },
+      "1487600226053": {
+        "error": {},
+        "duration": 10001
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 10001
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 10001
       }
     },
     "cornelius.sharafian.com": {
@@ -30268,12 +31114,88 @@
           "name": "NotAcceptedError"
         },
         "duration": 10597
+      },
+      "1487598639999": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10596
+      },
+      "1487598743728": {
+        "fee": 1,
+        "duration": 13175
+      },
+      "1487598820850": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9641
+      },
+      "1487598904019": {
+        "fee": 1,
+        "duration": 11494
+      },
+      "1487599564223": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9567
+      },
+      "1487600226053": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9861
+      },
+      "1487600887827": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9923
+      },
+      "1487601549567": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10054
       }
     },
     "michiel-eur.herokuapp.com": {
       "1487598251693": {
         "error": {},
         "duration": 8314
+      },
+      "1487598639999": {
+        "error": {},
+        "duration": 8590
+      },
+      "1487598743728": {
+        "error": {},
+        "duration": 8711
+      },
+      "1487598820850": {
+        "error": {},
+        "duration": 7698
+      },
+      "1487598904019": {
+        "error": {},
+        "duration": 7468
+      },
+      "1487599564223": {
+        "error": {},
+        "duration": 6654
+      },
+      "1487600226053": {
+        "error": {},
+        "duration": 7563
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 8064
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 7978
       }
     }
   }
