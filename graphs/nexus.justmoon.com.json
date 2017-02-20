@@ -1,106 +1,86 @@
 {
   "incoming": {
+    "pineapplesheep.ilp.rocks": {
+      "1487600226053": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 7617
+      },
+      "1487600887827": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 7317
+      },
+      "1487601549567": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9352
+      },
+      "1487602211090": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 6094
+      }
+    },
+    "hive.dennisappelt.com": {
+      "1487600226053": {
+        "error": {},
+        "duration": 16949
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 16856
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 18943
+      },
+      "1487602211090": {
+        "error": {},
+        "duration": 18141
+      },
+      "1487602834248": {
+        "error": {},
+        "duration": 14698
+      },
+      "1487602941495": {
+        "error": {},
+        "duration": 15501
+      },
+      "1487602980651": {
+        "error": {},
+        "duration": 14136
+      },
+      "1487603006281": {
+        "error": {},
+        "duration": 14038
+      },
+      "1487603087937": {
+        "error": {},
+        "duration": 15570
+      },
+      "1487603167523": {
+        "error": {},
+        "duration": 15094
+      },
+      "1487603248525": {
+        "error": {},
+        "duration": 15237
+      },
+      "1487603330600": {
+        "error": {},
+        "duration": 15467
+      },
+      "1487603411782": {
+        "error": {},
+        "duration": 14989
+      }
+    },
     "ilp-kit.michielbdejong.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 3195
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 3082
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 3394
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 3742
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 3317
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 2839
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 3576
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 3312
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 3754
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 3698
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 3714
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 3429
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 3931
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 3889
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 3624
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 3701
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 3733
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 4020
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 3846
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 16322
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 17529
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 17526
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 16684
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 16145
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 16342
-      },
       "1487600226053": {
         "error": {},
         "duration": 16285
@@ -160,625 +140,133 @@
       "1487603330600": {
         "error": {},
         "duration": 13882
+      },
+      "1487603411782": {
+        "error": {},
+        "duration": 13099
       }
     },
-    "pineapplesheep.ilp.rocks": {
-      "1487500270266": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 4921
-      },
-      "1487500925347": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 4911
-      },
-      "1487501580497": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5077
-      },
-      "1487502235721": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5000
-      },
-      "1487502890910": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 4266
-      },
-      "1487503545807": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5012
-      },
-      "1487504201093": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5181
-      },
-      "1487504856327": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 4846
-      },
-      "1487505511740": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5442
-      },
-      "1487506167099": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5189
-      },
-      "1487506822528": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5132
-      },
-      "1487507477701": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5120
-      },
-      "1487508132992": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5340
-      },
-      "1487508788647": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5681
-      },
-      "1487509444083": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5387
-      },
-      "1487510099647": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5144
-      },
-      "1487510755256": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5632
-      },
-      "1487511410890": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5621
-      },
-      "1487512066421": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5355
-      },
-      "1487598251693": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 9245
-      },
-      "1487598639999": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7358
-      },
-      "1487598743728": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 8901
-      },
-      "1487598820850": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7576
-      },
-      "1487598904019": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 8501
-      },
-      "1487599564223": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 8562
-      },
-      "1487600226053": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7617
-      },
-      "1487600887827": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7317
-      },
-      "1487601549567": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 9352
-      },
-      "1487602211090": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6094
-      }
-    },
-    "hive.dennisappelt.com": {
-      "1487500270266": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 4702
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 14896
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 14144
-      },
-      "1487502235721": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5149
-      },
-      "1487502890910": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5136
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 14566
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 14895
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 14427
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 14647
-      },
-      "1487506167099": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5460
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 14440
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 14959
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 14873
-      },
-      "1487508788647": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5572
-      },
-      "1487509444083": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5351
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 15197
-      },
-      "1487510755256": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5138
-      },
-      "1487511410890": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5655
-      },
-      "1487512066421": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5346
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 18555
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 17172
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 19370
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 18416
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 18052
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 16612
-      },
+    "michiel-eur.herokuapp.com": {
       "1487600226053": {
         "error": {},
-        "duration": 16949
+        "duration": 6689
       },
       "1487600887827": {
         "error": {},
-        "duration": 16856
+        "duration": 6783
       },
       "1487601549567": {
         "error": {},
-        "duration": 18943
+        "duration": 6766
       },
       "1487602211090": {
         "error": {},
-        "duration": 18141
+        "duration": 6556
       },
       "1487602834248": {
         "error": {},
-        "duration": 14698
+        "duration": 4822
       },
       "1487602941495": {
         "error": {},
-        "duration": 15501
+        "duration": 4997
       },
       "1487602980651": {
-        "error": {},
-        "duration": 14136
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 6369
       },
       "1487603006281": {
-        "error": {},
-        "duration": 14038
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9006
       },
       "1487603087937": {
-        "error": {},
-        "duration": 15570
+        "fee": 0,
+        "duration": 7149
       },
       "1487603167523": {
-        "error": {},
-        "duration": 15094
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 5200
       },
       "1487603248525": {
-        "error": {},
-        "duration": 15237
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 5085
       },
       "1487603330600": {
-        "error": {},
-        "duration": 15467
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 6139
+      },
+      "1487603411782": {
+        "fee": 0,
+        "duration": 6316
       }
     },
-    "michiel-is-not-available.herokuapp.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 3682
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 3738
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 4037
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 4010
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 4120
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 3566
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 4019
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 3719
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 4600
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 4346
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 4045
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 3947
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 4192
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 6256
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 4392
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 4015
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 4805
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 4136
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 4275
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 6860
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 7684
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 7016
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 7953
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 5828
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 5791
-      },
+    "nexus.justmoon.com": {
       "1487600226053": {
         "error": {},
-        "duration": 7870
+        "duration": 16191
       },
       "1487600887827": {
         "error": {},
-        "duration": 6853
+        "duration": 15734
       },
       "1487601549567": {
         "error": {},
-        "duration": 6623
+        "duration": 15972
       },
       "1487602211090": {
         "error": {},
-        "duration": 6248
+        "duration": 15425
       },
       "1487602834248": {
-        "error": {},
-        "duration": 4209
+        "fee": 0,
+        "duration": 5265
       },
       "1487602941495": {
         "error": {},
-        "duration": 5203
+        "duration": 14123
       },
       "1487602980651": {
         "error": {},
-        "duration": 3864
+        "duration": 13841
       },
       "1487603006281": {
         "error": {},
-        "duration": 4737
+        "duration": 13587
       },
       "1487603087937": {
         "error": {},
-        "duration": 4904
+        "duration": 14188
       },
       "1487603167523": {
-        "error": {},
-        "duration": 3931
+        "fee": 0,
+        "duration": 4864
       },
       "1487603248525": {
         "error": {},
-        "duration": 3666
+        "duration": 14395
       },
       "1487603330600": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 4898
+      },
+      "1487603411782": {
         "error": {},
-        "duration": 4834
+        "duration": 14476
       }
     },
     "john.jpvbs.com": {
-      "1487500270266": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5180
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 15305
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 14720
-      },
-      "1487502235721": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5461
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 15122
-      },
-      "1487503545807": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5080
-      },
-      "1487504201093": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5399
-      },
-      "1487504856327": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5016
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 14986
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 14817
-      },
-      "1487506822528": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5465
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 15610
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 15447
-      },
-      "1487508788647": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5935
-      },
-      "1487509444083": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5449
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 14981
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 15731
-      },
-      "1487511410890": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5779
-      },
-      "1487512066421": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5762
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 16764
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 18147
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 18292
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 17102
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 18258
-      },
-      "1487599564223": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 8365
-      },
       "1487600226053": {
         "error": {
           "name": "NotAcceptedError"
@@ -842,261 +330,15 @@
           "name": "NotAcceptedError"
         },
         "duration": 6034
-      }
-    },
-    "nexus.justmoon.com": {
-      "1487500270266": {
-        "fee": 0,
-        "duration": 4828
       },
-      "1487500925347": {
-        "error": {},
-        "duration": 13817
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 14074
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 14163
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 13945
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 13647
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 13856
-      },
-      "1487504856327": {
-        "fee": 0,
-        "duration": 4448
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 14658
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 14367
-      },
-      "1487506822528": {
-        "fee": 0,
-        "duration": 5156
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 14758
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 13804
-      },
-      "1487508788647": {
-        "fee": 0,
-        "duration": 4915
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 14430
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 14400
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 14429
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 14486
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 13991
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 15077
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 16985
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 16505
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 15591
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 16686
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 15766
-      },
-      "1487600226053": {
-        "error": {},
-        "duration": 16191
-      },
-      "1487600887827": {
-        "error": {},
-        "duration": 15734
-      },
-      "1487601549567": {
-        "error": {},
-        "duration": 15972
-      },
-      "1487602211090": {
-        "error": {},
-        "duration": 15425
-      },
-      "1487602834248": {
-        "fee": 0,
-        "duration": 5265
-      },
-      "1487602941495": {
-        "error": {},
-        "duration": 14123
-      },
-      "1487602980651": {
-        "error": {},
-        "duration": 13841
-      },
-      "1487603006281": {
-        "error": {},
-        "duration": 13587
-      },
-      "1487603087937": {
-        "error": {},
-        "duration": 14188
-      },
-      "1487603167523": {
-        "fee": 0,
-        "duration": 4864
-      },
-      "1487603248525": {
-        "error": {},
-        "duration": 14395
-      },
-      "1487603330600": {
+      "1487603411782": {
         "error": {
           "name": "NotAcceptedError"
         },
-        "duration": 4898
+        "duration": 5974
       }
     },
     "cygnus.vahehovhannisyan.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 4052
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 4548
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 3947
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 4524
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 4098
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 3996
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 4035
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 4215
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 4235
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 4435
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 4319
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 4453
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 4304
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 4391
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 4153
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 4088
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 4520
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 5010
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 4821
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 6220
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 6924
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 6678
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 6341
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 6167
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 5884
-      },
       "1487600226053": {
         "error": {},
         "duration": 5933
@@ -1144,111 +386,67 @@
       "1487603330600": {
         "error": {},
         "duration": 4374
+      },
+      "1487603411782": {
+        "error": {},
+        "duration": 3923
+      }
+    },
+    "michiel-is-not-available.herokuapp.com": {
+      "1487600226053": {
+        "error": {},
+        "duration": 7870
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 6853
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 6623
+      },
+      "1487602211090": {
+        "error": {},
+        "duration": 6248
+      },
+      "1487602834248": {
+        "error": {},
+        "duration": 4209
+      },
+      "1487602941495": {
+        "error": {},
+        "duration": 5203
+      },
+      "1487602980651": {
+        "error": {},
+        "duration": 3864
+      },
+      "1487603006281": {
+        "error": {},
+        "duration": 4737
+      },
+      "1487603087937": {
+        "error": {},
+        "duration": 4904
+      },
+      "1487603167523": {
+        "error": {},
+        "duration": 3931
+      },
+      "1487603248525": {
+        "error": {},
+        "duration": 3666
+      },
+      "1487603330600": {
+        "error": {},
+        "duration": 4834
+      },
+      "1487603411782": {
+        "error": {},
+        "duration": 4542
       }
     },
     "cornelius.sharafian.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 4641
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 4395
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 4445
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 4559
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 4473
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 4710
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 4667
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 4044
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 4196
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 4530
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 4841
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 4685
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 4807
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 4769
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 5050
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 4336
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 4963
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 5500
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 4875
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 19850
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 17953
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 19212
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 17604
-      },
-      "1487598904019": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 8440
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 17238
-      },
       "1487600226053": {
         "error": {},
         "duration": 17923
@@ -1298,323 +496,13 @@
       "1487603330600": {
         "error": {},
         "duration": 14768
-      }
-    },
-    "best-ilp.herokuapp.com": {
-      "1487500270266": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6404
       },
-      "1487500925347": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6651
-      },
-      "1487501580497": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7027
-      },
-      "1487502235721": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7649
-      },
-      "1487502890910": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6294
-      },
-      "1487503545807": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6668
-      },
-      "1487504201093": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6287
-      },
-      "1487504856327": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6223
-      },
-      "1487505511740": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6850
-      },
-      "1487506167099": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7132
-      },
-      "1487506822528": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7115
-      },
-      "1487507477701": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6867
-      },
-      "1487508132992": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6423
-      },
-      "1487508788647": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7123
-      },
-      "1487509444083": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7147
-      },
-      "1487510099647": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6612
-      },
-      "1487510755256": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7273
-      },
-      "1487511410890": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7216
-      },
-      "1487512066421": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7351
-      },
-      "1487598251693": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 10316
-      },
-      "1487598639999": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 10037
-      },
-      "1487598743728": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 11146
-      },
-      "1487598820850": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 10344
-      },
-      "1487598904019": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 9676
-      },
-      "1487599564223": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 9319
-      },
-      "1487600226053": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 10599
-      },
-      "1487600887827": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 9678
-      },
-      "1487601549567": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 9626
-      },
-      "1487602211090": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 9025
+      "1487603411782": {
+        "error": {},
+        "duration": 14890
       }
     },
     "ggizi.herokuapp.com": {
-      "1487500270266": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6365
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 16587
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 16235
-      },
-      "1487502235721": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6683
-      },
-      "1487502890910": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6560
-      },
-      "1487503545807": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6707
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 15916
-      },
-      "1487504856327": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6195
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 15909
-      },
-      "1487506167099": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6931
-      },
-      "1487506822528": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7126
-      },
-      "1487507477701": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6887
-      },
-      "1487508132992": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7237
-      },
-      "1487508788647": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7188
-      },
-      "1487509444083": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6909
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 16060
-      },
-      "1487510755256": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7784
-      },
-      "1487511410890": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7501
-      },
-      "1487512066421": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 7155
-      },
-      "1487598251693": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 10506
-      },
-      "1487598639999": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 9914
-      },
-      "1487598743728": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 10858
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 19563
-      },
-      "1487598904019": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 9004
-      },
-      "1487599564223": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 10261
-      },
       "1487600226053": {
         "error": {
           "name": "NotAcceptedError"
@@ -1670,109 +558,39 @@
       "1487603330600": {
         "error": {},
         "duration": 5548
+      },
+      "1487603411782": {
+        "error": {},
+        "duration": 17228
+      }
+    },
+    "best-ilp.herokuapp.com": {
+      "1487600226053": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 10599
+      },
+      "1487600887827": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9678
+      },
+      "1487601549567": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9626
+      },
+      "1487602211090": {
+        "error": {
+          "name": "NotAcceptedError"
+        },
+        "duration": 9025
       }
     },
     "royalcrypto.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 4816
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 4848
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 5302
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 5116
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 4885
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 4444
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 5133
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 4411
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 5620
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 5182
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 5328
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 5034
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 5343
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 5410
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 4958
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 4992
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 5305
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 5123
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 5274
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 9339
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 9324
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 9901
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 9070
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 8380
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 8018
-      },
       "1487600226053": {
         "error": {},
         "duration": 8558
@@ -1791,106 +609,6 @@
       }
     },
     "someledger.herokuapp.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 53562
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 53247
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 53621
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 53598
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 53362
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 53052
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 53343
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 53823
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 53931
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 53050
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 53065
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 53494
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 53226
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 53416
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 53110
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 53072
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 53318
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 53351
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 53576
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 54834
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 55029
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 55727
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 55363
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 55023
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 54554
-      },
       "1487600226053": {
         "error": {},
         "duration": 55017
@@ -1907,194 +625,10 @@
         "error": {},
         "duration": 54734
       }
-    },
-    "michiel-eur.herokuapp.com": {
-      "1487598251693": {
-        "error": {},
-        "duration": 8249
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 8110
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 9384
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 5848
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 7229
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 6284
-      },
-      "1487600226053": {
-        "error": {},
-        "duration": 6689
-      },
-      "1487600887827": {
-        "error": {},
-        "duration": 6783
-      },
-      "1487601549567": {
-        "error": {},
-        "duration": 6766
-      },
-      "1487602211090": {
-        "error": {},
-        "duration": 6556
-      },
-      "1487602834248": {
-        "error": {},
-        "duration": 4822
-      },
-      "1487602941495": {
-        "error": {},
-        "duration": 4997
-      },
-      "1487602980651": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6369
-      },
-      "1487603006281": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 9006
-      },
-      "1487603087937": {
-        "fee": 0,
-        "duration": 7149
-      },
-      "1487603167523": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5200
-      },
-      "1487603248525": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 5085
-      },
-      "1487603330600": {
-        "error": {
-          "name": "NotAcceptedError"
-        },
-        "duration": 6139
-      }
     }
   },
   "outgoing": {
     "hive.dennisappelt.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 3470
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 3833
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 3935
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 3903
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 4069
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 3170
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 4195
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 3644
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 4056
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 4098
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 4436
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 3875
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 4059
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 4112
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 3732
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 3960
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 4103
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 4113
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 3648
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 4686
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 6178
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 6639
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 6049
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 5603
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 5574
-      },
       "1487600226053": {
         "error": {},
         "duration": 5551
@@ -2142,259 +676,13 @@
       "1487603330600": {
         "error": {},
         "duration": 13599
-      }
-    },
-    "michiel-is-not-available.herokuapp.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 3606
       },
-      "1487500925347": {
+      "1487603411782": {
         "error": {},
-        "duration": 3774
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 3885
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 4004
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 3954
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 3801
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 4117
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 3865
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 3697
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 4079
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 4114
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 4471
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 4566
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 5087
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 4271
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 4136
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 4247
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 4201
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 4236
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 6414
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 7309
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 7427
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 6967
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 5867
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 5201
-      },
-      "1487600226053": {
-        "error": {},
-        "duration": 7081
-      },
-      "1487600887827": {
-        "error": {},
-        "duration": 5519
-      },
-      "1487601549567": {
-        "error": {},
-        "duration": 7033
-      },
-      "1487602211090": {
-        "error": {},
-        "duration": 14860
-      },
-      "1487602834248": {
-        "error": {},
-        "duration": 14003
-      },
-      "1487602941495": {
-        "error": {},
-        "duration": 13452
-      },
-      "1487602980651": {
-        "error": {},
-        "duration": 13061
-      },
-      "1487603006281": {
-        "error": {},
-        "duration": 13218
-      },
-      "1487603087937": {
-        "error": {},
-        "duration": 13371
-      },
-      "1487603167523": {
-        "error": {},
-        "duration": 13751
-      },
-      "1487603248525": {
-        "error": {},
-        "duration": 12982
-      },
-      "1487603330600": {
-        "error": {},
-        "duration": 13351
+        "duration": 12899
       }
     },
     "pineapplesheep.ilp.rocks": {
-      "1487500270266": {
-        "error": {},
-        "duration": 3614
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 4213
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 4137
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 4263
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 4225
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 3292
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 3621
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 3637
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 3651
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 3811
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 3668
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 3865
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 4397
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 4345
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 4488
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 4393
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 4556
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 4532
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 4420
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 5431
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 5992
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 6240
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 5637
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 6099
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 5190
-      },
       "1487600226053": {
         "error": {},
         "duration": 6221
@@ -2412,557 +700,7 @@
         "duration": 14864
       }
     },
-    "ilp-kit.michielbdejong.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 3786
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 3590
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 3656
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 4020
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 3723
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 3029
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 3430
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 3776
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 3859
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 4369
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 4435
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 3853
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 4236
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 3862
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 3973
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 3935
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 4100
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 4393
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 4100
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 5868
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 6899
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 5799
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 5637
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 6195
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 4770
-      },
-      "1487600226053": {
-        "error": {},
-        "duration": 6547
-      },
-      "1487600887827": {
-        "error": {},
-        "duration": 5777
-      },
-      "1487601549567": {
-        "error": {},
-        "duration": 6136
-      },
-      "1487602211090": {
-        "error": {},
-        "duration": 15276
-      },
-      "1487602834248": {
-        "error": {},
-        "duration": 12936
-      },
-      "1487602941495": {
-        "error": {},
-        "duration": 13641
-      },
-      "1487602980651": {
-        "error": {},
-        "duration": 13958
-      },
-      "1487603006281": {
-        "error": {},
-        "duration": 13202
-      },
-      "1487603087937": {
-        "error": {},
-        "duration": 13393
-      },
-      "1487603167523": {
-        "error": {},
-        "duration": 13698
-      },
-      "1487603248525": {
-        "error": {},
-        "duration": 13353
-      },
-      "1487603330600": {
-        "error": {},
-        "duration": 13322
-      }
-    },
-    "john.jpvbs.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 3926
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 3954
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 4194
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 3931
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 3939
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 4350
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 4340
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 4200
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 4347
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 4461
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 3967
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 3885
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 4566
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 4217
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 4070
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 4388
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 4457
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 4290
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 4447
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 6174
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 6997
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 6648
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 6326
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 6190
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 6140
-      },
-      "1487600226053": {
-        "error": {},
-        "duration": 6935
-      },
-      "1487600887827": {
-        "error": {},
-        "duration": 7267
-      },
-      "1487601549567": {
-        "error": {},
-        "duration": 6134
-      },
-      "1487602211090": {
-        "error": {},
-        "duration": 15429
-      },
-      "1487602834248": {
-        "error": {},
-        "duration": 13810
-      },
-      "1487602941495": {
-        "error": {},
-        "duration": 13770
-      },
-      "1487602980651": {
-        "error": {},
-        "duration": 13793
-      },
-      "1487603006281": {
-        "error": {},
-        "duration": 13486
-      },
-      "1487603087937": {
-        "error": {},
-        "duration": 14504
-      },
-      "1487603167523": {
-        "error": {},
-        "duration": 13696
-      },
-      "1487603248525": {
-        "error": {},
-        "duration": 13967
-      },
-      "1487603330600": {
-        "error": {},
-        "duration": 13386
-      }
-    },
-    "cygnus.vahehovhannisyan.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 4079
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 4015
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 4231
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 4034
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 4359
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 3802
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 4315
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 3884
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 4774
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 4221
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 4463
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 4415
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 4092
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 4561
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 4412
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 4206
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 4440
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 4250
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 4425
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 5888
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 6996
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 7104
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 6321
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 7236
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 6011
-      },
-      "1487600226053": {
-        "error": {},
-        "duration": 6535
-      },
-      "1487600887827": {
-        "error": {},
-        "duration": 6213
-      },
-      "1487601549567": {
-        "error": {},
-        "duration": 6065
-      },
-      "1487602211090": {
-        "error": {},
-        "duration": 16055
-      },
-      "1487602834248": {
-        "error": {},
-        "duration": 14158
-      },
-      "1487602941495": {
-        "error": {},
-        "duration": 14122
-      },
-      "1487602980651": {
-        "error": {},
-        "duration": 14094
-      },
-      "1487603006281": {
-        "error": {},
-        "duration": 13385
-      },
-      "1487603087937": {
-        "error": {},
-        "duration": 14295
-      },
-      "1487603167523": {
-        "error": {},
-        "duration": 13756
-      },
-      "1487603248525": {
-        "error": {},
-        "duration": 13778
-      },
-      "1487603330600": {
-        "error": {},
-        "duration": 14486
-      }
-    },
     "cornelius.sharafian.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 4182
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 4223
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 4332
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 4347
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 4646
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 4093
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 4029
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 4287
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 4384
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 4587
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 4451
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 4500
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 4685
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 4587
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 4837
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 4127
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 4662
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 4767
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 4499
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 6561
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 7254
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 9120
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 6901
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 6457
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 7103
-      },
       "1487600226053": {
         "error": {},
         "duration": 6535
@@ -3010,227 +748,283 @@
       "1487603330600": {
         "error": {},
         "duration": 14384
+      },
+      "1487603411782": {
+        "error": {},
+        "duration": 13816
       }
     },
-    "best-ilp.herokuapp.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 4295
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 4528
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 4667
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 4778
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 4569
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 4394
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 4572
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 4162
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 4536
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 4812
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 4846
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 4975
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 4795
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 5041
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 4568
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 4587
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 4542
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 4993
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 4922
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 8127
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 8528
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 7630
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 7579
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 7964
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 7507
-      },
+    "cygnus.vahehovhannisyan.com": {
       "1487600226053": {
         "error": {},
-        "duration": 8103
+        "duration": 6535
       },
       "1487600887827": {
         "error": {},
-        "duration": 8388
+        "duration": 6213
       },
       "1487601549567": {
         "error": {},
-        "duration": 7641
+        "duration": 6065
       },
       "1487602211090": {
         "error": {},
-        "duration": 16051
+        "duration": 16055
+      },
+      "1487602834248": {
+        "error": {},
+        "duration": 14158
+      },
+      "1487602941495": {
+        "error": {},
+        "duration": 14122
+      },
+      "1487602980651": {
+        "error": {},
+        "duration": 14094
+      },
+      "1487603006281": {
+        "error": {},
+        "duration": 13385
+      },
+      "1487603087937": {
+        "error": {},
+        "duration": 14295
+      },
+      "1487603167523": {
+        "error": {},
+        "duration": 13756
+      },
+      "1487603248525": {
+        "error": {},
+        "duration": 13778
+      },
+      "1487603330600": {
+        "error": {},
+        "duration": 14486
+      },
+      "1487603411782": {
+        "error": {},
+        "duration": 13502
+      }
+    },
+    "ilp-kit.michielbdejong.com": {
+      "1487600226053": {
+        "error": {},
+        "duration": 6547
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 5777
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 6136
+      },
+      "1487602211090": {
+        "error": {},
+        "duration": 15276
+      },
+      "1487602834248": {
+        "error": {},
+        "duration": 12936
+      },
+      "1487602941495": {
+        "error": {},
+        "duration": 13641
+      },
+      "1487602980651": {
+        "error": {},
+        "duration": 13958
+      },
+      "1487603006281": {
+        "error": {},
+        "duration": 13202
+      },
+      "1487603087937": {
+        "error": {},
+        "duration": 13393
+      },
+      "1487603167523": {
+        "error": {},
+        "duration": 13698
+      },
+      "1487603248525": {
+        "error": {},
+        "duration": 13353
+      },
+      "1487603330600": {
+        "error": {},
+        "duration": 13322
+      },
+      "1487603411782": {
+        "error": {},
+        "duration": 12901
+      }
+    },
+    "john.jpvbs.com": {
+      "1487600226053": {
+        "error": {},
+        "duration": 6935
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 7267
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 6134
+      },
+      "1487602211090": {
+        "error": {},
+        "duration": 15429
+      },
+      "1487602834248": {
+        "error": {},
+        "duration": 13810
+      },
+      "1487602941495": {
+        "error": {},
+        "duration": 13770
+      },
+      "1487602980651": {
+        "error": {},
+        "duration": 13793
+      },
+      "1487603006281": {
+        "error": {},
+        "duration": 13486
+      },
+      "1487603087937": {
+        "error": {},
+        "duration": 14504
+      },
+      "1487603167523": {
+        "error": {},
+        "duration": 13696
+      },
+      "1487603248525": {
+        "error": {},
+        "duration": 13967
+      },
+      "1487603330600": {
+        "error": {},
+        "duration": 13386
+      },
+      "1487603411782": {
+        "error": {},
+        "duration": 13501
+      }
+    },
+    "michiel-eur.herokuapp.com": {
+      "1487600226053": {
+        "error": {},
+        "duration": 6933
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 7687
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 6057
+      },
+      "1487602211090": {
+        "error": {},
+        "duration": 15709
+      },
+      "1487602834248": {
+        "error": {},
+        "duration": 13774
+      },
+      "1487602941495": {
+        "error": {},
+        "duration": 13942
+      },
+      "1487602980651": {
+        "error": {},
+        "duration": 14372
+      },
+      "1487603006281": {
+        "error": {},
+        "duration": 14031
+      },
+      "1487603087937": {
+        "error": {},
+        "duration": 14286
+      },
+      "1487603167523": {
+        "error": {},
+        "duration": 14058
+      },
+      "1487603248525": {
+        "error": {},
+        "duration": 14581
+      },
+      "1487603330600": {
+        "error": {},
+        "duration": 13985
+      },
+      "1487603411782": {
+        "error": {},
+        "duration": 14020
+      }
+    },
+    "michiel-is-not-available.herokuapp.com": {
+      "1487600226053": {
+        "error": {},
+        "duration": 7081
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 5519
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 7033
+      },
+      "1487602211090": {
+        "error": {},
+        "duration": 14860
+      },
+      "1487602834248": {
+        "error": {},
+        "duration": 14003
+      },
+      "1487602941495": {
+        "error": {},
+        "duration": 13452
+      },
+      "1487602980651": {
+        "error": {},
+        "duration": 13061
+      },
+      "1487603006281": {
+        "error": {},
+        "duration": 13218
+      },
+      "1487603087937": {
+        "error": {},
+        "duration": 13371
+      },
+      "1487603167523": {
+        "error": {},
+        "duration": 13751
+      },
+      "1487603248525": {
+        "error": {},
+        "duration": 12982
+      },
+      "1487603330600": {
+        "error": {},
+        "duration": 13351
+      },
+      "1487603411782": {
+        "error": {},
+        "duration": 13813
       }
     },
     "ggizi.herokuapp.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 4470
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 4193
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 4132
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 4512
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 4229
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 4035
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 4920
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 4231
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 4804
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 4817
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 4563
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 4334
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 4804
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 4753
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 4604
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 4901
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 4891
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 4599
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 5206
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 8697
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 6893
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 7624
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 8129
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 7957
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 7091
-      },
       "1487600226053": {
         "error": {},
         "duration": 7949
@@ -3278,109 +1072,31 @@
       "1487603330600": {
         "error": {},
         "duration": 15184
+      },
+      "1487603411782": {
+        "error": {},
+        "duration": 14478
+      }
+    },
+    "best-ilp.herokuapp.com": {
+      "1487600226053": {
+        "error": {},
+        "duration": 8103
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 8388
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 7641
+      },
+      "1487602211090": {
+        "error": {},
+        "duration": 16051
       }
     },
     "royalcrypto.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 4531
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 4679
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 5043
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 5106
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 4763
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 4141
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 4395
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 4588
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 4777
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 4935
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 4869
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 4688
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 4852
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 5226
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 4755
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 4911
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 5023
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 5381
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 5074
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 8129
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 9359
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 8249
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 8348
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 7438
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 7787
-      },
       "1487600226053": {
         "error": {},
         "duration": 8245
@@ -3398,107 +1114,25 @@
         "duration": 16991
       }
     },
+    "someledger.herokuapp.com": {
+      "1487600226053": {
+        "error": {},
+        "duration": 10003
+      },
+      "1487600887827": {
+        "error": {},
+        "duration": 10004
+      },
+      "1487601549567": {
+        "error": {},
+        "duration": 10018
+      },
+      "1487602211090": {
+        "error": {},
+        "duration": 10003
+      }
+    },
     "nexus.justmoon.com": {
-      "1487500270266": {
-        "fee": 0,
-        "duration": 4828
-      },
-      "1487500925347": {
-        "error": {},
-        "duration": 13817
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 14074
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 14163
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 13945
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 13647
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 13856
-      },
-      "1487504856327": {
-        "fee": 0,
-        "duration": 4448
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 14658
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 14367
-      },
-      "1487506822528": {
-        "fee": 0,
-        "duration": 5156
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 14758
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 13804
-      },
-      "1487508788647": {
-        "fee": 0,
-        "duration": 4915
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 14430
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 14400
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 14429
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 14486
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 13991
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 15077
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 16985
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 16505
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 15591
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 16686
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 15766
-      },
       "1487600226053": {
         "error": {},
         "duration": 16191
@@ -3548,198 +1182,10 @@
           "name": "NotAcceptedError"
         },
         "duration": 4898
-      }
-    },
-    "someledger.herokuapp.com": {
-      "1487500270266": {
-        "error": {},
-        "duration": 10000
       },
-      "1487500925347": {
+      "1487603411782": {
         "error": {},
-        "duration": 10000
-      },
-      "1487501580497": {
-        "error": {},
-        "duration": 10001
-      },
-      "1487502235721": {
-        "error": {},
-        "duration": 10001
-      },
-      "1487502890910": {
-        "error": {},
-        "duration": 10000
-      },
-      "1487503545807": {
-        "error": {},
-        "duration": 10000
-      },
-      "1487504201093": {
-        "error": {},
-        "duration": 10001
-      },
-      "1487504856327": {
-        "error": {},
-        "duration": 10001
-      },
-      "1487505511740": {
-        "error": {},
-        "duration": 10001
-      },
-      "1487506167099": {
-        "error": {},
-        "duration": 10001
-      },
-      "1487506822528": {
-        "error": {},
-        "duration": 10000
-      },
-      "1487507477701": {
-        "error": {},
-        "duration": 10001
-      },
-      "1487508132992": {
-        "error": {},
-        "duration": 10001
-      },
-      "1487508788647": {
-        "error": {},
-        "duration": 10001
-      },
-      "1487509444083": {
-        "error": {},
-        "duration": 10001
-      },
-      "1487510099647": {
-        "error": {},
-        "duration": 10000
-      },
-      "1487510755256": {
-        "error": {},
-        "duration": 10001
-      },
-      "1487511410890": {
-        "error": {},
-        "duration": 10001
-      },
-      "1487512066421": {
-        "error": {},
-        "duration": 10001
-      },
-      "1487598251693": {
-        "error": {},
-        "duration": 10058
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 10015
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 10058
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 10009
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 10003
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 10009
-      },
-      "1487600226053": {
-        "error": {},
-        "duration": 10003
-      },
-      "1487600887827": {
-        "error": {},
-        "duration": 10004
-      },
-      "1487601549567": {
-        "error": {},
-        "duration": 10018
-      },
-      "1487602211090": {
-        "error": {},
-        "duration": 10003
-      }
-    },
-    "michiel-eur.herokuapp.com": {
-      "1487598251693": {
-        "error": {},
-        "duration": 6546
-      },
-      "1487598639999": {
-        "error": {},
-        "duration": 5979
-      },
-      "1487598743728": {
-        "error": {},
-        "duration": 7629
-      },
-      "1487598820850": {
-        "error": {},
-        "duration": 6970
-      },
-      "1487598904019": {
-        "error": {},
-        "duration": 5859
-      },
-      "1487599564223": {
-        "error": {},
-        "duration": 5860
-      },
-      "1487600226053": {
-        "error": {},
-        "duration": 6933
-      },
-      "1487600887827": {
-        "error": {},
-        "duration": 7687
-      },
-      "1487601549567": {
-        "error": {},
-        "duration": 6057
-      },
-      "1487602211090": {
-        "error": {},
-        "duration": 15709
-      },
-      "1487602834248": {
-        "error": {},
-        "duration": 13774
-      },
-      "1487602941495": {
-        "error": {},
-        "duration": 13942
-      },
-      "1487602980651": {
-        "error": {},
-        "duration": 14372
-      },
-      "1487603006281": {
-        "error": {},
-        "duration": 14031
-      },
-      "1487603087937": {
-        "error": {},
-        "duration": 14286
-      },
-      "1487603167523": {
-        "error": {},
-        "duration": 14058
-      },
-      "1487603248525": {
-        "error": {},
-        "duration": 14581
-      },
-      "1487603330600": {
-        "error": {},
-        "duration": 13985
+        "duration": 14476
       }
     }
   }

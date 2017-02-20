@@ -1,119 +1,119 @@
 {
-  "ilp-kit.michielbdejong.com": {
-    "succeeded": 47,
-    "failed": 813,
-    "fees": 4.602661919399998,
-    "durations": 7094180,
-    "price": 0.0979289770085106,
-    "speed": 8249.046511627907,
-    "reliability": 0.05465116279069768
-  },
-  "hive.dennisappelt.com": {
-    "succeeded": 75,
-    "failed": 785,
-    "fees": 36.045144422999996,
-    "durations": 8141388,
-    "price": 0.4806019256399999,
-    "speed": 9466.73023255814,
-    "reliability": 0.0872093023255814
-  },
   "pineapplesheep.ilp.rocks": {
     "succeeded": 0,
-    "failed": 716,
+    "failed": 104,
     "fees": 0,
-    "durations": 5085901,
+    "durations": 885541,
     "price": null,
-    "speed": 7103.213687150838,
+    "speed": 8514.817307692309,
     "reliability": 0
   },
-  "john.jpvbs.com": {
-    "succeeded": 75,
-    "failed": 785,
-    "fees": 52.70452993350001,
-    "durations": 8314588,
-    "price": 0.7027270657800002,
-    "speed": 9668.125581395348,
-    "reliability": 0.0872093023255814
+  "ilp-kit.michielbdejong.com": {
+    "succeeded": 29,
+    "failed": 237,
+    "fees": 4.101516297299998,
+    "durations": 2487421,
+    "price": 0.14143159645862063,
+    "speed": 9351.206766917294,
+    "reliability": 0.10902255639097744
   },
   "michiel-is-not-available.herokuapp.com": {
+    "succeeded": 13,
+    "failed": 253,
+    "fees": -0.04255024900000061,
+    "durations": 2116610,
+    "price": -0.0032730960769231238,
+    "speed": 7957.18045112782,
+    "reliability": 0.04887218045112782
+  },
+  "hive.dennisappelt.com": {
+    "succeeded": 30,
+    "failed": 236,
+    "fees": 12.035112328999999,
+    "durations": 2653702,
+    "price": 0.4011704109666666,
+    "speed": 9976.323308270677,
+    "reliability": 0.11278195488721804
+  },
+  "michiel-eur.herokuapp.com": {
     "succeeded": 16,
-    "failed": 844,
-    "fees": -0.08485407300000075,
-    "durations": 6289369,
-    "price": -0.005303379562500047,
-    "speed": 7313.21976744186,
-    "reliability": 0.018604651162790697
-  },
-  "cornelius.sharafian.com": {
-    "succeeded": 45,
-    "failed": 815,
-    "fees": 22.549416308800005,
-    "durations": 8448864,
-    "price": 0.5010981401955557,
-    "speed": 9824.260465116278,
-    "reliability": 0.05232558139534884
-  },
-  "cygnus.vahehovhannisyan.com": {
-    "succeeded": 2,
-    "failed": 858,
-    "fees": 1,
-    "durations": 7770378,
-    "price": 0.5,
-    "speed": 9035.323255813953,
-    "reliability": 0.002325581395348837
-  },
-  "nexus.justmoon.com": {
-    "succeeded": 14,
-    "failed": 846,
-    "fees": 0,
-    "durations": 8421504,
-    "price": 0,
-    "speed": 9792.446511627906,
-    "reliability": 0.01627906976744186
-  },
-  "ggizi.herokuapp.com": {
-    "succeeded": 74,
-    "failed": 786,
-    "fees": 56.7803815851,
-    "durations": 8744072,
-    "price": 0.7673024538527027,
-    "speed": 10167.525581395348,
-    "reliability": 0.08604651162790698
+    "failed": 250,
+    "fees": 5.356726496999998,
+    "durations": 2350253,
+    "price": 0.33479540606249986,
+    "speed": 8835.537593984962,
+    "reliability": 0.06015037593984962
   },
   "best-ilp.herokuapp.com": {
     "succeeded": 0,
-    "failed": 716,
+    "failed": 104,
     "fees": 0,
-    "durations": 6138406,
+    "durations": 1078536,
     "price": null,
-    "speed": 8573.192737430167,
+    "speed": 10370.538461538461,
     "reliability": 0
+  },
+  "nexus.justmoon.com": {
+    "succeeded": 7,
+    "failed": 259,
+    "fees": 0,
+    "durations": 3151999,
+    "price": 0,
+    "speed": 11849.62030075188,
+    "reliability": 0.02631578947368421
+  },
+  "cornelius.sharafian.com": {
+    "succeeded": 29,
+    "failed": 237,
+    "fees": 17.774708154400003,
+    "durations": 2889440,
+    "price": 0.6129209708413794,
+    "speed": 10862.556390977443,
+    "reliability": 0.10902255639097744
+  },
+  "ggizi.herokuapp.com": {
+    "succeeded": 28,
+    "failed": 238,
+    "fees": 19.8892452237,
+    "durations": 2960184,
+    "price": 0.7103301865607143,
+    "speed": 11128.511278195489,
+    "reliability": 0.10526315789473684
+  },
+  "cygnus.vahehovhannisyan.com": {
+    "succeeded": 3,
+    "failed": 263,
+    "fees": 0.943677043,
+    "durations": 2445220,
+    "price": 0.31455901433333333,
+    "speed": 9192.556390977443,
+    "reliability": 0.011278195488721804
   },
   "royalcrypto.com": {
     "succeeded": 0,
-    "failed": 716,
+    "failed": 104,
     "fees": 0,
-    "durations": 5955780,
+    "durations": 1076212,
     "price": null,
-    "speed": 8318.128491620111,
+    "speed": 10348.192307692309,
     "reliability": 0
+  },
+  "john.jpvbs.com": {
+    "succeeded": 27,
+    "failed": 239,
+    "fees": 16.8480181992,
+    "durations": 2668367,
+    "price": 0.6240006740444444,
+    "speed": 10031.454887218046,
+    "reliability": 0.10150375939849623
   },
   "someledger.herokuapp.com": {
     "succeeded": 0,
-    "failed": 716,
+    "failed": 104,
     "fees": 0,
-    "durations": 21596790,
+    "durations": 3201057,
     "price": null,
-    "speed": 30163.114525139667,
+    "speed": 30779.39423076923,
     "reliability": 0
-  },
-  "michiel-eur.herokuapp.com": {
-    "succeeded": 22,
-    "failed": 382,
-    "fees": 6.452148821999996,
-    "durations": 3688838,
-    "price": 0.29327949190909075,
-    "speed": 9130.787128712871,
-    "reliability": 0.054455445544554455
   }
 }
