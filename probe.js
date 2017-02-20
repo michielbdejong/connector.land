@@ -132,10 +132,10 @@ console.log(a.settlements, b.settlements)
     if ((('' + a.settlements).indexOf('<span style="color:red">') === -1) && (('' + b.settlements).indexOf('<span style="color:red">') !== -1)) { return -1; }
     if (a.reliability < b.reliability) { return 1; }
     if (a.reliability > b.reliability) { return -1; }
-    if (a.speed < b.speed) { return 1; }
-    if (a.speed > b.speed) { return -1; }
-    if (a.price < b.price) { return 1; }
-    if (a.price > b.price) { return -1; }
+    if (a.speed < b.speed) { return -1; }
+    if (a.speed > b.speed) { return 1; }
+    if (a.price < b.price) { return -1; }
+    if (a.price > b.price) { return 1; }
     if ((a.health === 'OK') && (b.health !== 'OK')) { return -1; }
     if ((a.health !== 'OK') && (b.health === 'OK')) { return 1; }
     if ((a.ping) && (!b.ping)) { return -1; }
