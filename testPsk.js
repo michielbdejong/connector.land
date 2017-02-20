@@ -1,5 +1,28 @@
 'use strict'
 
+var p = [
+   'michiel-eur.herokuapp.com',
+  'ilp-kit.michielbdejong.com',
+  'cornelius.sharafian.com',
+  'hive.dennisappelt.com',
+  'cygnus.vahehovhannisyan.com',
+  'john.jpvbs.com',
+  'nexus.justmoon.com',
+  'michiel-is-not-available.herokuapp.com',
+  'ggizi.herokuapp.com',
+];
+var prefixes = {
+  'michiel-eur.herokuapp.com': 'lu.eur.michiel-eur.',
+  'ilp-kit.michielbdejong.com': 'lu.eur.michiel.',
+  'cornelius.sharafian.com': 'us.usd.cornelius.',
+  'hive.dennisappelt.com': 'lu.eur.hive.',
+  'cygnus.vahehovhannisyan.com': 'us.usd.cygnus.',
+  'john.jpvbs.com': 'us.usd.jonhvb.',
+  'nexus.justmoon.com': 'us.usd.nexus.',
+  'michiel-is-not-available.herokuapp.com': 'us.usd.michiel-is-not-available.',
+  'ggizi.herokuapp.com': 'us.usd.ggizi.',
+};
+
 const co = require('co')
 const ILP = require('ilp')
 const FiveBellsLedgerPlugin = require('ilp-plugin-bells')
@@ -12,6 +35,7 @@ module.exports.test = function(from, to, amount) {
   const sender = ILP.createSender({
     _plugin: FiveBellsLedgerPlugin,
     account: `https://${from}/ledger/accounts/connectorland`,
+    connectors: [ prefixes[from] + 'micmic' ],
     password: passwords[from]
   })
   
@@ -56,7 +80,7 @@ module.exports.test = function(from, to, amount) {
 }
 
 function runTest(from, to) {
-  promises.push(module.exports.test(from, to, 0.01).then(result => {
+  return module.exports.test(from, to, 0.01).then(result => {
     console.log('DONE!', result);
     if (typeof results[from] === 'undefined') {
       results[from] = {};
@@ -65,19 +89,29 @@ function runTest(from, to) {
       results[from][to] = {};
     }
     results[from][to] = result;
-  }));
+  });
 }
 
-var promises = [];
 var results = {};
-for (var from in passwords) {
-  for (var to in passwords) {
-    if (from !== to) {
-      runTest(from, to);
-    }
+var tasks = [];
+for (var i = 0; i<p.length; i++) {
+  for (var j = i+1; j<p.length; j++) {
+    tasks.push([ p[i], p[j] ]);
+    tasks.push([ p[j], p[i] ]);
   }
 }
-Promise.all(promises).then(() => {
+function doNext() {
+  console.log(results, tasks);
+  var next = tasks.shift();
+  if (typeof next === 'undefined') {
+    console.log('no tasks left')
+    return Promise.resolve();
+  }
+  console.log(next);
+  return runTest(next[0], next[1]).then(doNext);
+}
+
+doNext().then(() => {
   console.log(results);
   fs.writeFileSync(`./performance/${new Date().getTime()}.json`, JSON.stringify(results));
   // have to work out why this is necessary:
