@@ -2,14 +2,14 @@
 
 var p = [
    'michiel-eur.herokuapp.com',
-  'ilp-kit.michielbdejong.com',
+//  'ilp-kit.michielbdejong.com',
   'cornelius.sharafian.com',
-  'hive.dennisappelt.com',
-  'cygnus.vahehovhannisyan.com',
-  'john.jpvbs.com',
-  'nexus.justmoon.com',
-  'michiel-is-not-available.herokuapp.com',
-  'ggizi.herokuapp.com',
+//  'hive.dennisappelt.com',
+//  'cygnus.vahehovhannisyan.com',
+//  'john.jpvbs.com',
+//  'nexus.justmoon.com',
+//  'michiel-is-not-available.herokuapp.com',
+//  'ggizi.herokuapp.com',
 ];
 
 var psk = require('./testPskCommon');
@@ -18,7 +18,7 @@ var tasks = [];
 for (var i = 0; i<p.length; i++) {
   for (var j = i+1; j<p.length; j++) {
     tasks.push([ p[i], p[j] ]);
-    tasks.push([ p[j], p[i] ]);
+//    tasks.push([ p[j], p[i] ]);
   }
 }
 
