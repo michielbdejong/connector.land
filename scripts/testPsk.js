@@ -3,15 +3,16 @@
 var p = [
    'michiel-eur.herokuapp.com',
   'ilp-kit.michielbdejong.com',
-  'cornelius.sharafian.com',
-  'hive.dennisappelt.com',
-  'cygnus.vahehovhannisyan.com',
-  'john.jpvbs.com',
-  'nexus.justmoon.com',
-  'michiel-is-not-available.herokuapp.com',
-  'ggizi.herokuapp.com',
+//  'cornelius.sharafian.com',
+//  'hive.dennisappelt.com',
+//  'cygnus.vahehovhannisyan.com',
+//  'john.jpvbs.com',
+//  'nexus.justmoon.com',
+//  'michiel-is-not-available.herokuapp.com',
+//  'ggizi.herokuapp.com',
 ];
 
+var fs = require('fs');
 var psk = require('./testPskCommon');
 
 var tasks = [];
@@ -36,7 +37,7 @@ function doNext() {
 doNext().then(() => {
   console.log('all done!');
   console.log(psk.results);
-  fs.writeFileSync(`./performance/${new Date().getTime()}.json`, JSON.stringify(psk.results));
+  fs.writeFileSync(`../data/performance/${new Date().getTime()}.json`, JSON.stringify(psk.results));
   // have to work out why this is necessary:
   process.exit(0);
 });

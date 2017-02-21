@@ -1,7 +1,7 @@
 var fs = require('fs');
 var merged = {};
-fs.readdirSync('./performance').map(filename => {
-  var data = JSON.parse(fs.readFileSync(`./performance/${filename}`));
+fs.readdirSync('../data/performance').map(filename => {
+  var data = JSON.parse(fs.readFileSync(`../data/performance/${filename}`));
   var time = filename.substring(0, 13);
   for (var from in data) {
     for (var to in data[from]) {
@@ -59,7 +59,7 @@ for (var server in merged) {
     speed: durations / (succeeded + failed),
     reliability: succeeded / (succeeded + failed)
   };
-  fs.writeFileSync('./perfStats.json', JSON.stringify(stats, null, 2));
-  fs.writeFileSync(`./graphs/${server}.json`, JSON.stringify(merged[server], null, 2));
+  fs.writeFileSync('../data/perfStats.json', JSON.stringify(stats, null, 2));
+  fs.writeFileSync(`../data/graphs/${server}.json`, JSON.stringify(merged[server], null, 2));
 }
 

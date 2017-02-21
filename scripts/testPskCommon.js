@@ -15,7 +15,7 @@ var prefixes = {
 const co = require('co')
 const ILP = require('ilp')
 const FiveBellsLedgerPlugin = require('ilp-plugin-bells')
-const passwords = require('./passwords')
+const passwords = require('../passwords')
 const fs = require('fs')
 
 module.exports.test = function(from, to, amount) {

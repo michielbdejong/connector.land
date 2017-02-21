@@ -2,7 +2,7 @@
   "name": "connector.land",
   "version": "1.0.0",
   "description": "https://connector.land (builds out https://github.com/interledgerjs/ilp-kit/wiki/Known-ILP-Nodes)",
-  "main": "probe.js",
+  "main": "scripts/probe.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
