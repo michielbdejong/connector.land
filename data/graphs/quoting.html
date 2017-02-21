@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://connector.land/style.css">
   </head>
   <body>
-   <h4 id="heading"></h4>
-   <table id="t" border="1"></table>
+   <h4 id="heading">Quoting stats</h4>
+    <p>Vertical: { source ledger, connector on there }</p>
+    <p>Horizontal: destination ledger</p>
+    <p>Numbers quoted are source amount for destination amount 0.01. Note that some ledgers are in euros, others are in dollars.</p>
+    <p><a href="https://connector.land">Back to connector.land</a></p>
+   <table id="t" class="rwd-table"></table>
   </body>
   <script>
     function show() {
@@ -30,6 +44,9 @@
             var text = xhr.response[source][columns[i]] || '?';
             if (text === 'error') {
               text = '<span style="background-color:red">error</span>';
+            } else if (text === '?') {
+            } else  {
+              //text = Math.round(parseFloat(text)*10000 - 100) + '%';
             }
             dests.push(text);
           }
