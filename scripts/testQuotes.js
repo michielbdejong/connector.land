@@ -3,8 +3,8 @@
 var p = [
   { host: 'michiel-eur.herokuapp.com', conn: 'connector' },
   { host: 'ilp-kit.michielbdejong.com', conn: 'connector' },
-  { host: 'cornelius.sharafian.com', conn: 'connector' },
-  { host: 'hive.dennisappelt.com', conn: 'connector' },
+  { host: 'cornelius.sharafian.com', conn: 'sharafian' },
+  { host: 'hive.dennisappelt.com', conn: 'dennis' },
   { host: 'cygnus.vahehovhannisyan.com', conn: 'vahe' },
   { host: 'john.jpvbs.com', conn: 'connector' },
   { host: 'nexus.justmoon.com', conn: 'stefan' },
