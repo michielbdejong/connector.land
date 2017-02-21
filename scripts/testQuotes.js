@@ -47,6 +47,6 @@ function doNext() {
 doNext().then(() => {
   console.log('all done!');
   console.log(results);
-  fs.writeFileSync(`../data/quoting/${new Date().getTime()}.json`, JSON.stringify(results));
+  fs.writeFileSync(`../data/graphs/quoting.json`, JSON.stringify(results));
   process.exit(0); // this is an upstream bug
 });
