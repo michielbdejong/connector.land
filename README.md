@@ -9,6 +9,8 @@ To update the list with latest probe data, on stats.connector.land, create a `pa
 npm install ; npm install -g pm2 ; cd scripts ; pm2 start statsServer.js ; sh ./everyTenMinutes.sh
 ````
 
+Make sure the stats server runs on https://stats.connector.land/, and the `data/graphs/` folder is served on https://stats.connector.land/graphs/.
+
 DNS for connector.land, and by extension for stats.connector.land, is currently at CloudFlare (DNR is at Gandi.net) in @michielbdejong's account/handle.
 Hosting for connector.land is github pages (served from the master branch). Hosting for stats.connector.land is at Vultr.com, on the same host where
 ilp-kit.michielbdejong.com and the micmic connector are hosted. That's why they'll probably have an advantage in speed measurements, but otherwise it should
