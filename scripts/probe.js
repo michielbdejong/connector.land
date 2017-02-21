@@ -3,10 +3,10 @@ var ping = require('ping');
 var https = require('https');
 var WebFinger = require('webfinger.js').WebFinger;
 var wf = new WebFinger();
-var perfStats = require('./perfStats.json');
+var perfStats = require('../data/perfStats.json');
 
-var hosts = require('./data/hosts.js').hosts;
-const OUTPUT_FILE = './stats.json';
+var hosts = require('../data/hosts.js').hosts;
+const OUTPUT_FILE = '../data/stats.json';
 
 function checkUrl(i, path) {
   return new Promise((resolve) => {
