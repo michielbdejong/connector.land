@@ -1,6 +1,6 @@
 var http = require('http');
 var fs = require('fs');
-var stats = fs.readFileSync('./stats.json');
+var stats = fs.readFileSync('../data/stats.json');
 
 http.createServer(function(req, res) {
   res.writeHead(200, {

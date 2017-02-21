@@ -125,9 +125,7 @@ for (var i=0; i<hosts.length; i++) {
   } 
 }
 Promise.all(promises).then(() => {
-  fs.writeFileSync(OUTPUT_FILE, '[\n' +
-    hosts.sort(function(a, b) {
-console.log(a.settlements, b.settlements)
+  var rows = hosts.sort(function(a, b) {
     if ((('' + a.settlements).indexOf('<span style="color:red">') !== -1) && (('' + b.settlements).indexOf('<span style="color:red">') === -1)) { return 1; }
     if ((('' + a.settlements).indexOf('<span style="color:red">') === -1) && (('' + b.settlements).indexOf('<span style="color:red">') !== -1)) { return -1; }
     if (a.reliability < b.reliability) { return 1; }
@@ -142,8 +140,6 @@ console.log(a.settlements, b.settlements)
     if ((!a.ping) && (b.ping)) { return 1; }
     if ((a.settlements === 'None') && (b.settlements !== 'None')) { return 1; }
     if ((a.settlements !== 'None') && (b.settlements === 'None')) { return -1; }
-//    if ((('' + a.version).indexOf('<span style="color:green">') !== -1) && (('' + b.version).indexOf('<span style="color:green">') === -1)) { return -1; }
-//    if ((('' + a.version).indexOf('<span style="color:green">') === -1) && (('' + b.version).indexOf('<span style="color:green">') !== -1)) { return 1; }
     if (a.hostname < b.hostname) { return -1; }
     if (a.hostname > b.hostname) { return 1; }
     return 0;
@@ -159,6 +155,20 @@ console.log(a.settlements, b.settlements)
         `<td>${line.health.slice(0, 50)}</td>` +
         (line.ping?`<td style="color:green">&#x2713;</td>` : `<td style="color:red">&#x2716;</td>`) +
         `</tr>`
-  ).map(str => `  ${JSON.stringify(str)}`).join(',\n') +
-    '\n]\n');
+  );
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify({
+    headers: [
+    '<th>ILP Kit URL</th>',
+    '<th>Reliability (success rate)</th>',
+    '<th>Speed (one transaction)</th>',
+    '<th>Price (commission fee on a 0.01 EUR/USD transaction)</th>',
+    '<th>ILP Kit Version</th>',
+    '<th>Ledger Prefix</th>',
+    '<th>Owner\'s Connector Account</th>',
+    '<th>Settlement Methods</th>',
+    '<th>Health</th>',
+    '<th>Ping</th>',
+  ],
+    rows: rows
+  }, null, 2));
 });
