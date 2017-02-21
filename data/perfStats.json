@@ -1,21 +1,21 @@
 {
   "michiel-eur.herokuapp.com": {
-    "succeeded": 168,
+    "succeeded": 170,
     "failed": 192,
     "fees": 20.170399999999972,
-    "durations": 1526514,
-    "price": 0.12006190476190459,
-    "speed": 4240.316666666667,
-    "reliability": 0.4666666666666667
+    "durations": 1529105,
+    "price": 0.11864941176470573,
+    "speed": 4224.046961325967,
+    "reliability": 0.4696132596685083
   },
   "ilp-kit.michielbdejong.com": {
-    "succeeded": 168,
+    "succeeded": 170,
     "failed": 192,
     "fees": 17.965426375399968,
-    "durations": 1374166,
-    "price": 0.10693706175833315,
-    "speed": 3817.1277777777777,
-    "reliability": 0.4666666666666667
+    "durations": 1376757,
+    "price": 0.10567897867882334,
+    "speed": 3803.196132596685,
+    "reliability": 0.4696132596685083
   },
   "cornelius.sharafian.com": {
     "succeeded": 0,

@@ -17,20 +17,27 @@
         var rows = [];
         var columns = [];
         for (var source in xhr.response) {
+          if (columns.indexOf(source.split(' ')[0]) === -1) {
+            columns.push(source.split(' ')[0]);
+          }
           var dests = [];
           for (var dest in xhr.response[source]) {
             if (columns.indexOf(dest) === -1) {
               columns.push(dest);
             }
-            dests.push({ dest, data: xhr.response[source][dest] });
           }
-          dests.sort(function(a, b) {
-            return columns.indexOf(a) - columns.indexOf(b);
-          });
-console.log(dests);
-          rows.push(`<tr><td>${source}</td><td>${dests.map(obj => obj.dest + ': ' + obj.data).join('</td><td>')}</td></tr>`);
+          for (var i=0; i<columns.length; i++) {
+            var text = xhr.response[source][columns[i]] || '?';
+            if (text === 'error') {
+              text = '<span style="background-color:red">error</span>';
+            }
+            dests.push(text);
+          }
+console.log(source, dests);
+          rows.push(`<tr><td>${source}</td><td>${dests.join('</td><td>')}</td></tr>`);
         }
-        document.getElementById('t').innerHTML = rows.join('\n');
+        var headers = '<tr><td>source:</td><td>' + columns.join('</td><td>') + '</td></tr>\n';
+        document.getElementById('t').innerHTML = headers + rows.join('\n');
       };
     }
     show();
