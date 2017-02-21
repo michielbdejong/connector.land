@@ -51,7 +51,7 @@
         for (var timestamp in measurements) {
 console.log(timestamp, new Date(parseInt(timestamp)), typeof timestamp)
           bars.push({
-            country: new Date(parseInt(timestamp)).getHours() + ':' + new Date(parseInt(timestamp)).getMinutes(),
+            country: new Date(parseInt(timestamp)).toTimeString().substring(0, 5),
             visits: measurements[timestamp][field],
             color: (typeof measurements[timestamp].error === 'undefined' ? '#04D215' : "#FF0F00")
           });
