@@ -1,7 +1,7 @@
 # connector.land
 https://connector.land (builds out https://github.com/interledgerjs/ilp-kit/wiki/Known-ILP-Nodes)
 
-To add yourself, edit [data/hosts.json](https://github.com/michielbdejong/connector.land/edit/master/data/hosts.json).
+To add yourself, edit [data/hosts.js](https://github.com/michielbdejong/connector.land/edit/master/data/hosts.js).
 
 To update the list with latest probe data, on stats.connector.land, create a `passwords.js` file, and run:
 
