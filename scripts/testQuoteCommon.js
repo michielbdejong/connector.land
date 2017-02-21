@@ -37,10 +37,11 @@ module.exports.test = function(from, conn, to) {
   return  receiver.listen().then(() => {
     return receiver.createRequest({ amount: 0.01 });
   }).then(request => { 
+console.log(request);
     return sender.quoteRequest(request);
   }).then(params => {
     console.log({ from, conn, to }, params);
-    return params.source_amount;
+    return params.sourceAmount;
   }).catch(err => {
     console.error({ from, conn, to }, err);
     return 'error';
