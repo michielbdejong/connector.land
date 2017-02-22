@@ -4,12 +4,16 @@ var p = [
   { host: 'michiel-eur.herokuapp.com', conn: 'connector' },
   { host: 'ilp-kit.michielbdejong.com', conn: 'connector' },
   { host: 'cornelius.sharafian.com', conn: 'sharafian' },
+  { host: 'pineapplesheep.ilp.rocks', conn: 'pineapplesheep' },
   { host: 'hive.dennisappelt.com', conn: 'dennis' },
   { host: 'cygnus.vahehovhannisyan.com', conn: 'vahe' },
   { host: 'john.jpvbs.com', conn: 'connector' },
+  { host: 'royalcrypto.com', conn: 'connector' },
   { host: 'nexus.justmoon.com', conn: 'stefan' },
   { host: 'michiel-is-not-available.herokuapp.com', conn: 'connector' },
   { host: 'ggizi.herokuapp.com', conn: 'connector' },
+  { host: 'best-ilp.herokuapp.com', conn: 'connector' },
+  { host: 'someledger.herokuapp.com', conn: 'connector' },
 ];
 
 var fs = require('fs');
