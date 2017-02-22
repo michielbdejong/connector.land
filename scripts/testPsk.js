@@ -1,15 +1,19 @@
 'use strict'
 
 var p = [
-   'michiel-eur.herokuapp.com',
+  'michiel-eur.herokuapp.com',
   'ilp-kit.michielbdejong.com',
-//  'cornelius.sharafian.com',
-//  'hive.dennisappelt.com',
-//  'cygnus.vahehovhannisyan.com',
-//  'john.jpvbs.com',
-//  'nexus.justmoon.com',
-//  'michiel-is-not-available.herokuapp.com',
-//  'ggizi.herokuapp.com',
+  'cornelius.sharafian.com',
+  'pineapplesheep.ilp.rocks',
+  'hive.dennisappelt.com',
+  'cygnus.vahehovhannisyan.com',
+  'john.jpvbs.com',
+  'royalcrypto.com',
+  'nexus.justmoon.com',
+  'michiel-is-not-available.herokuapp.com',
+  'ggizi.herokuapp.com',
+  'best-ilp.herokuapp.com',
+  'someledger.herokuapp.com',
 ];
 
 var fs = require('fs');
