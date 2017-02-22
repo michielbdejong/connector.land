@@ -51,7 +51,12 @@
             dests.push(text);
           }
 console.log(source, dests);
-          rows.push(`<tr><td>${source}</td><td>${dests.join('</td><td>')}</td></tr>`);
+          var row = `<tr><td>${source}</td><td>${dests.join('</td><td>')}</td></tr>`;
+          if (source.split(' ')[1] === 'micmic') {
+            rows.unshift(row)
+          } else {
+            rows.push(row)
+          }
         }
         var headers = '<tr><td>source:</td><td>' + columns.join('</td><td>') + '</td></tr>\n';
         document.getElementById('t').innerHTML = headers + rows.join('\n');
