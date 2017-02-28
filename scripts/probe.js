@@ -114,26 +114,26 @@ for (var i=0; i<hosts.length; i++) {
   promises.push(pingHost(i));
   promises.push(checkHealth(i));
   promises.push(checkSettlements(i));
-  if (typeof perfStats[hosts[i].hostname] !== 'undefined') {
-    hosts[i].speed = perfStats[hosts[i].hostname].speed;
-    hosts[i].price = perfStats[hosts[i].hostname].price;
-    hosts[i].reliability = perfStats[hosts[i].hostname].reliability;
-  } else {
-    hosts[i].speed = 0;
-    hosts[i].price = 0;
-    hosts[i].reliability = 0;
-  } 
+//  if (typeof perfStats[hosts[i].hostname] !== 'undefined') {
+//    hosts[i].speed = perfStats[hosts[i].hostname].speed;
+//    hosts[i].price = perfStats[hosts[i].hostname].price;
+//    hosts[i].reliability = perfStats[hosts[i].hostname].reliability;
+//  } else {
+//    hosts[i].speed = 0;
+//    hosts[i].price = 0;
+//    hosts[i].reliability = 0;
+//  } 
 }
 Promise.all(promises).then(() => {
   var rows = hosts.sort(function(a, b) {
     if ((('' + a.settlements).indexOf('<span style="color:red">') !== -1) && (('' + b.settlements).indexOf('<span style="color:red">') === -1)) { return 1; }
     if ((('' + a.settlements).indexOf('<span style="color:red">') === -1) && (('' + b.settlements).indexOf('<span style="color:red">') !== -1)) { return -1; }
-    if (a.reliability < b.reliability) { return 1; }
-    if (a.reliability > b.reliability) { return -1; }
-    if (a.speed < b.speed) { return -1; }
-    if (a.speed > b.speed) { return 1; }
-    if (a.price < b.price) { return -1; }
-    if (a.price > b.price) { return 1; }
+//    if (a.reliability < b.reliability) { return 1; }
+//    if (a.reliability > b.reliability) { return -1; }
+//    if (a.speed < b.speed) { return -1; }
+//    if (a.speed > b.speed) { return 1; }
+//    if (a.price < b.price) { return -1; }
+//    if (a.price > b.price) { return 1; }
     if ((a.health === 'OK') && (b.health !== 'OK')) { return -1; }
     if ((a.health !== 'OK') && (b.health === 'OK')) { return 1; }
     if ((a.ping) && (!b.ping)) { return -1; }
@@ -145,9 +145,9 @@ Promise.all(promises).then(() => {
     return 0;
   }).map(line =>
     `<tr><td><a href="https://${line.hostname}">${line.hostname}</a></td>` +
-        `<td>${Math.floor(1000*line.reliability)/10}%</td>` +
-        `<td>${Math.floor(line.speed)/1000} seconds</td>` +
-        `<td>${Math.floor(100*line.price)}%</td>` +
+//        `<td>${Math.floor(1000*line.reliability)/10}%</td>` +
+//        `<td>${Math.floor(line.speed)/1000} seconds</td>` +
+//        `<td>${Math.floor(100*line.price)}%</td>` +
         `<td>${line.version}</td>` +
         `<td>${line.prefix}</td>` +
         `<td>${line.owner}</td>` +
@@ -159,9 +159,9 @@ Promise.all(promises).then(() => {
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify({
     headers: [
     '<th>ILP Kit URL</th>',
-    '<th>Reliability (success rate)</th>',
-    '<th>Speed (one transaction)</th>',
-    '<th>Price (commission fee on a 0.01 EUR/USD transaction)</th>',
+//     '<th>Reliability (success rate)</th>',
+//     '<th>Speed (one transaction)</th>',
+//     '<th>Price (commission fee on a 0.01 EUR/USD transaction)</th>',
     '<th>ILP Kit Version</th>',
     '<th>Ledger Prefix</th>',
     '<th>Owner\'s Connector Account</th>',

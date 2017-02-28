@@ -24,7 +24,7 @@ module.exports.test = function(from, to, amount) {
   const sender = ILP.createSender({
     _plugin: FiveBellsLedgerPlugin,
     account: `https://${from}/ledger/accounts/connectorland`,
-    connectors: [ prefixes[from] + 'micmic' ],
+    connectors: [ prefixes[from] + 'dennis' ],
     password: passwords[from]
   })
   
