@@ -1,4 +1,6 @@
 module.exports.hosts = [
+  { "hostname": "red.ilpdemo.org",                        "prefix": "",                                 "owner": ""},
+  { "hostname": "blue.ilpdemo.org",                       "prefix": "",                                 "owner": ""},
   { "hostname": "kes-ilp.abdishakur.com",                 "prefix": "ke.kes.kes-ilp.",                  "owner": "abdishakur"},
   { "hostname": "ilp.bigchaindb.com",                     "prefix": "de.eur.bigchaindb.",               "owner": "dimitri"},
   { "hostname": "zar-ilp.hopebailie.com",                 "prefix": "za.zar.hopebailie.",               "owner": "adrian"},
