@@ -1,6 +1,8 @@
 'use strict'
 
 var p = [
+  'red.ilpdemo.org',
+  'blue.ilpdemo.org',
   'michiel-eur.herokuapp.com',
   'ilp-kit.michielbdejong.com',
   'cornelius.sharafian.com',

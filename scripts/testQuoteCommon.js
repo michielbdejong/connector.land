@@ -1,6 +1,8 @@
 'use strict'
 
 var prefixes = {
+  'red.ilpdemo.org': 'us.usd.red.',
+  'blue.ilpdemo.org': 'us.usd.blue.',
   'michiel-eur.herokuapp.com': 'lu.eur.michiel-eur.',
   'ilp-kit.michielbdejong.com': 'lu.eur.michiel.',
   'cornelius.sharafian.com': 'us.usd.cornelius.',

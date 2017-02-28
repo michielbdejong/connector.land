@@ -1,6 +1,8 @@
 'use strict'
 
 var p = [
+  { host: 'red.ilpdemo.org', conn: 'connector' },
+  { host: 'blue.ilpdemo.org', conn: 'connector' },
   { host: 'michiel-eur.herokuapp.com', conn: 'connector' },
   { host: 'ilp-kit.michielbdejong.com', conn: 'connector' },
   { host: 'cornelius.sharafian.com', conn: 'sharafian' },
