@@ -45,6 +45,7 @@ function checkApiCall(i, field, path, print) {
       return `HTTP <span style="color:red">${result.status}</span> response`;
     }
   }).then(text => {
+    console.log(`${field} for ${hosts[i].hostname}: ${text}`);
     hosts[i][field] = text;
   });
 }
@@ -76,6 +77,7 @@ function getApiVersion(i) {
       }
     });
   }).then(text => {
+    console.log(`api version for ${hosts[i].hostname}: ${text}`);
     hosts[i].version = text;
   });
 }
