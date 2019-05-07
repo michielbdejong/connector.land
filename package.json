@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/michielbdejong/connector.land#readme",
   "dependencies": {
-    "ilp": "^8.2.0",
-    "ilp-plugin-bells": "^10.2.3",
+    "ilp": "^14.1.0",
+    "ilp-plugin-bells": "^15.1.2",
     "ping": "^0.2.1",
     "webfinger.js": "^2.6.2"
   }
