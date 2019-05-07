@@ -1,4 +1,7 @@
 # connector.land
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/michielbdejong/connector.land.svg)](https://greenkeeper.io/)
+
 https://connector.land (builds out https://github.com/interledgerjs/ilp-kit/wiki/Known-ILP-Nodes)
 
 To add yourself, edit [data/hosts.js](https://github.com/michielbdejong/connector.land/edit/master/data/hosts.js).
